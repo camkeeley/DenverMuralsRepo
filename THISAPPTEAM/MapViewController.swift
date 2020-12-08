@@ -23,11 +23,6 @@ class MapViewController: UIViewController {
    //longitude and latitude of Denver, CO
    //39.7392° N, 104.9903° W
     
-  
-    
-
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
