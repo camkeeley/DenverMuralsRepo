@@ -2,14 +2,14 @@
 //  MapViewController.swift
 //  TSP
 //
-//  Created by William Keeley on 12/3/20.
+//  Created by Cameron Keeley on 12/3/20.
 //  Copyright © 2020 CamKeeleyApps. All rights reserved.
 //
 //
 //  SecondViewController.swift
 //  databasePractice
 //
-//  Created by William Keeley on 12/1/20.
+//  Created by Cameron Keeley on 12/1/20.
 //  Copyright © 2020 CamKeeleyApps. All rights reserved.
 //
 
@@ -29,27 +29,56 @@ class MapViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        let annotation = MKPointAnnotation()
+        
+//        Do any additional setup after loading the view.
+        
+        
+           for each in murals
+           {
+//               let newMuralPoint = MKPointAnnotation()
+//                newMuralPoint.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(each.latitude), longitude: CLLocationDegrees(each.longitude))
+//                newMuralPoint.title = each.title as String
+//                newMuralPoint.subtitle = each.artist as String
+//                mapView.addAnnotation(newMuralPoint)
+            if(each.title != "")
+            {
+                let newMuralPoint = MKPointAnnotation()
+                newMuralPoint.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(each.latitude), longitude: CLLocationDegrees(each.longitude))
+                 newMuralPoint.title = each.title as String
+                 newMuralPoint.subtitle = each.artist as String
+                 mapView.addAnnotation(newMuralPoint)
+                
+                print(each.artist as String + "\(each.latitude)" + "\(each.longitude)")
+            }
+                
+            
+           
+
+            }
+            let annotation = MKPointAnnotation()
                annotation.coordinate = CLLocationCoordinate2D(latitude: 39.7392, longitude: -104.9903)
                annotation.title = "Denver, Colorado"
                annotation.subtitle = "Home of CMCP"
                mapView.addAnnotation(annotation)
                
+        
+            
                // The main neighborhood that our murals are based out of right now
                let annotation_two = MKPointAnnotation()
                annotation_two.coordinate = CLLocationCoordinate2D(latitude: 39.7333, longitude: -105.0054)
                annotation_two.title = "La Alma / Lincoln Park"
                annotation_two.subtitle = "Neighborhood of the murals"
                mapView.addAnnotation(annotation_two)
-               
-               // Address of La Alma Recreation Center
-               let mural_one = MKPointAnnotation()
-               mural_one.coordinate = CLLocationCoordinate2D(latitude: 39.735271, longitude: -105.004059)
-               mural_one.title = "La Alma Mural"
-               mural_one.subtitle = "Artist: Emmanuel Martinez"
-               mapView.addAnnotation(mural_one)
+             
+            
+//               // Address of La Alma Recreation Center
+//               let mural_one = MKPointAnnotation()
+//               mural_one.coordinate = CLLocationCoordinate2D(latitude: 39.735271, longitude: -105.004059)
+//               mural_one.title = "La Alma Mural"
+//               mural_one.subtitle = "Artist: Emmanuel Martinez"
+//               mapView.addAnnotation(mural_one)
                
                // Address of Colorado Charter High School
                let mural_two = MKPointAnnotation()
@@ -65,7 +94,7 @@ class MapViewController: UIViewController {
                mural_three.subtitle = "Artist: Nick Vigil"
                mapView.addAnnotation(mural_three)
                
-               let region = MKCoordinateRegion(center: annotation_two.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+               let region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 39.7333, longitude: -105.0054), latitudinalMeters: 500, longitudinalMeters: 500)
                mapView.setRegion(region, animated: true)
       
     }

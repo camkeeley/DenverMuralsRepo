@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AB6D08B0DE40FA04D527738 /* Pods_THISAPPTEAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB0132D2C4266991DB43AF28 /* Pods_THISAPPTEAM.framework */; };
 		2E9F0B1C257EF1220034098C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B1B257EF1220034098C /* AppDelegate.swift */; };
 		2E9F0B1E257EF1220034098C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B1D257EF1220034098C /* SceneDelegate.swift */; };
 		2E9F0B20257EF1220034098C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B1F257EF1220034098C /* ViewController.swift */; };
@@ -16,6 +17,14 @@
 		2E9F0B60257EF4170034098C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B5F257EF4170034098C /* MapViewController.swift */; };
 		2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */; };
 		2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B69257EF4400034098C /* muralStruct.swift */; };
+		9AEF55BC148F33543A677414 /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA5CB122F13D121847AB8D7 /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework */; };
+		A8008C27258027730068BB75 /* FirebaseDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8008C26258027730068BB75 /* FirebaseDB.swift */; };
+		A8008D512580AE9D0068BB75 /* muralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8008D502580AE9D0068BB75 /* muralModel.swift */; };
+		A8008D562580B2BC0068BB75 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8008D552580B2BC0068BB75 /* GlobalVariables.swift */; };
+		A8D0B006257F3FFC00D88A6F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0B005257F3FFC00D88A6F /* LoginViewController.swift */; };
+		A8D0B008257F404C00D88A6F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0B007257F404C00D88A6F /* SignUpViewController.swift */; };
+		A8D0B011257F61E700D88A6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8D0B010257F61E700D88A6F /* GoogleService-Info.plist */; };
+		D47394D387815F0924069E3D /* Pods_THISAPPTEAMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8022634EA7CE1D726CD10B /* Pods_THISAPPTEAMTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069EBBF60935426505A21975 /* Pods-THISAPPTEAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM.release.xcconfig"; sourceTree = "<group>"; };
+		0B8022634EA7CE1D726CD10B /* Pods_THISAPPTEAMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THISAPPTEAMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		154779E15B92DB19D6FE8193 /* Pods-THISAPPTEAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM.debug.xcconfig"; sourceTree = "<group>"; };
+		1F7D70AE41230248501A7D8D /* Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		217C9705A1FF6A1A7115C728 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2E9F0B18257EF1220034098C /* THISAPPTEAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THISAPPTEAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E9F0B1B257EF1220034098C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E9F0B1D257EF1220034098C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,16 @@
 		2E9F0B5F257EF4170034098C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManagement.swift; sourceTree = "<group>"; };
 		2E9F0B69257EF4400034098C /* muralStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = muralStruct.swift; sourceTree = "<group>"; };
+		3867B9D9E74AD2328AB5E26F /* Pods-THISAPPTEAMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AA5CB122F13D121847AB8D7 /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THISAPPTEAM_THISAPPTEAMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		732A5753F28911305D16C170 /* Pods-THISAPPTEAMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8008C26258027730068BB75 /* FirebaseDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDB.swift; sourceTree = "<group>"; };
+		A8008D502580AE9D0068BB75 /* muralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muralModel.swift; sourceTree = "<group>"; };
+		A8008D552580B2BC0068BB75 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GlobalVariables.swift; path = ../../../Desktop/GlobalVariables.swift; sourceTree = "<group>"; };
+		A8D0B005257F3FFC00D88A6F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A8D0B007257F404C00D88A6F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A8D0B010257F61E700D88A6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB0132D2C4266991DB43AF28 /* Pods_THISAPPTEAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THISAPPTEAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB6D08B0DE40FA04D527738 /* Pods_THISAPPTEAM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D47394D387815F0924069E3D /* Pods_THISAPPTEAMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AEF55BC148F33543A677414 /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,8 @@
 			children = (
 				2E9F0B1A257EF1220034098C /* THISAPPTEAM */,
 				2E9F0B19257EF1220034098C /* Products */,
+				63E857F17FC0682C561E715C /* Pods */,
+				F0492DEDF9479FCE72FEFF0E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,18 +126,55 @@
 		2E9F0B1A257EF1220034098C /* THISAPPTEAM */ = {
 			isa = PBXGroup;
 			children = (
+				A8D0B009257F415E00D88A6F /* ViewControllers */,
 				2E9F0B1B257EF1220034098C /* AppDelegate.swift */,
 				2E9F0B1D257EF1220034098C /* SceneDelegate.swift */,
-				2E9F0B1F257EF1220034098C /* ViewController.swift */,
 				2E9F0B24257EF1250034098C /* Assets.xcassets */,
-				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
 				2E9F0B26257EF1250034098C /* LaunchScreen.storyboard */,
 				2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */,
 				2E9F0B69257EF4400034098C /* muralStruct.swift */,
 				2E9F0B29257EF1250034098C /* Info.plist */,
+				A8D0B010257F61E700D88A6F /* GoogleService-Info.plist */,
 				2E9F0B4E257EF13B0034098C /* Main.storyboard */,
+				A8008C26258027730068BB75 /* FirebaseDB.swift */,
+				A8008D502580AE9D0068BB75 /* muralModel.swift */,
+				A8008D552580B2BC0068BB75 /* GlobalVariables.swift */,
 			);
 			path = THISAPPTEAM;
+			sourceTree = "<group>";
+		};
+		63E857F17FC0682C561E715C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				154779E15B92DB19D6FE8193 /* Pods-THISAPPTEAM.debug.xcconfig */,
+				069EBBF60935426505A21975 /* Pods-THISAPPTEAM.release.xcconfig */,
+				217C9705A1FF6A1A7115C728 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */,
+				1F7D70AE41230248501A7D8D /* Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig */,
+				732A5753F28911305D16C170 /* Pods-THISAPPTEAMTests.debug.xcconfig */,
+				3867B9D9E74AD2328AB5E26F /* Pods-THISAPPTEAMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8D0B009257F415E00D88A6F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
+				A8D0B007257F404C00D88A6F /* SignUpViewController.swift */,
+				A8D0B005257F3FFC00D88A6F /* LoginViewController.swift */,
+				2E9F0B1F257EF1220034098C /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F0492DEDF9479FCE72FEFF0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB0132D2C4266991DB43AF28 /* Pods_THISAPPTEAM.framework */,
+				4AA5CB122F13D121847AB8D7 /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework */,
+				0B8022634EA7CE1D726CD10B /* Pods_THISAPPTEAMTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9F0B42257EF1260034098C /* Build configuration list for PBXNativeTarget "THISAPPTEAM" */;
 			buildPhases = (
+				4655B23CC22A1C33C54EA653 /* [CP] Check Pods Manifest.lock */,
 				2E9F0B14257EF1220034098C /* Sources */,
 				2E9F0B15257EF1220034098C /* Frameworks */,
 				2E9F0B16257EF1220034098C /* Resources */,
+				A07D97606BB836AD6A55A559 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9F0B45257EF1260034098C /* Build configuration list for PBXNativeTarget "THISAPPTEAMTests" */;
 			buildPhases = (
+				CD7CF10712BEC730217A17C4 /* [CP] Check Pods Manifest.lock */,
 				2E9F0B2A257EF1260034098C /* Sources */,
 				2E9F0B2B257EF1260034098C /* Frameworks */,
 				2E9F0B2C257EF1260034098C /* Resources */,
@@ -153,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E9F0B48257EF1260034098C /* Build configuration list for PBXNativeTarget "THISAPPTEAMUITests" */;
 			buildPhases = (
+				7BBA46D0A2F2189BCD49DFB9 /* [CP] Check Pods Manifest.lock */,
 				2E9F0B35257EF1260034098C /* Sources */,
 				2E9F0B36257EF1260034098C /* Frameworks */,
 				2E9F0B37257EF1260034098C /* Resources */,
+				A7706B908C30811C4C759A26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9F0B28257EF1250034098C /* LaunchScreen.storyboard in Resources */,
+				A8D0B011257F61E700D88A6F /* GoogleService-Info.plist in Resources */,
 				2E9F0B25257EF1250034098C /* Assets.xcassets in Resources */,
 				2E9F0B4F257EF13B0034098C /* Main.storyboard in Resources */,
 			);
@@ -236,13 +308,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4655B23CC22A1C33C54EA653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THISAPPTEAM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BBA46D0A2F2189BCD49DFB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THISAPPTEAM-THISAPPTEAMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07D97606BB836AD6A55A559 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7706B908C30811C4C759A26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD7CF10712BEC730217A17C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THISAPPTEAMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E9F0B14257EF1220034098C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D0B006257F3FFC00D88A6F /* LoginViewController.swift in Sources */,
+				A8008C27258027730068BB75 /* FirebaseDB.swift in Sources */,
 				2E9F0B20257EF1220034098C /* ViewController.swift in Sources */,
+				A8008D512580AE9D0068BB75 /* muralModel.swift in Sources */,
+				A8D0B008257F404C00D88A6F /* SignUpViewController.swift in Sources */,
 				2E9F0B1C257EF1220034098C /* AppDelegate.swift in Sources */,
+				A8008D562580B2BC0068BB75 /* GlobalVariables.swift in Sources */,
 				2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */,
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
 				2E9F0B1E257EF1220034098C /* SceneDelegate.swift in Sources */,
@@ -409,13 +589,14 @@
 		};
 		2E9F0B43257EF1260034098C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 154779E15B92DB19D6FE8193 /* Pods-THISAPPTEAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8846QUTNNX;
 				INFOPLIST_FILE = THISAPPTEAM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -429,13 +610,14 @@
 		};
 		2E9F0B44257EF1260034098C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069EBBF60935426505A21975 /* Pods-THISAPPTEAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8846QUTNNX;
 				INFOPLIST_FILE = THISAPPTEAM/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,6 +631,7 @@
 		};
 		2E9F0B46257EF1260034098C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732A5753F28911305D16C170 /* Pods-THISAPPTEAMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +654,7 @@
 		};
 		2E9F0B47257EF1260034098C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3867B9D9E74AD2328AB5E26F /* Pods-THISAPPTEAMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +677,7 @@
 		};
 		2E9F0B49257EF1260034098C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217C9705A1FF6A1A7115C728 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +698,7 @@
 		};
 		2E9F0B4A257EF1260034098C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7D70AE41230248501A7D8D /* Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
