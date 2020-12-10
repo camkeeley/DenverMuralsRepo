@@ -7,6 +7,7 @@
 
 
 import Foundation
+import FirebaseStorage
 import Firebase
 import UIKit
 
@@ -48,11 +49,118 @@ public class FirebaseDB{
 
     }
     
-    func getImage()
+    func getImage(title: NSString)->UIImage?
     {
+        let storage = Storage.storage()
+        var image = UIImage()
         
+        var muralSelected = muralDataModel(title: "", artist: "", latitude: 0, longitude: 0, imageRef: "")
+        for each in murals
+        {
+            if each.title == title
+            {
+                muralSelected?.title = each.title
+                muralSelected?.imageRef = each.imageRef
+
+                break
+
+            }
+            
+        }
+        
+        let imageURL = muralSelected!.imageRef as String
+        print(imageURL)
+        let ref = storage.reference(forURL: imageURL)
+
+        
+        // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
+        ref.getData(maxSize: 1 * 1024 * 1024) { data, error in
+          if let error = error {
+            // Uh-oh, an error occurred!
+          } else {
+            print("Success!")
+            image = UIImage(data: data!)!
+          }
+        }
+    
+        return image
     }
     
+    
+    /*
+    func getImage(title: NSString)->UIImage?
+    {
+        let storage = Storage.storage()
+        var image = UIImage()
+        
+        var muralSelected = muralDataModel(title: "", artist: "", latitude: 0, longitude: 0, imageRef: "")
+        for each in murals
+        {
+            if each.title == title
+            {
+                muralSelected?.title = each.title
+                muralSelected?.imageRef = each.imageRef
+
+                break
+
+            }
+            
+        }
+        
+        let imageURL = muralSelected?.imageRef
+        print(imageURL)
+        let ref = storage.reference(forURL: imageURL! as String)
+
+    
+        // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
+        ref.getData(maxSize: 1 * 1024 * 1024) { data, error in
+          if let error = error {
+            // Uh-oh, an error occurred!
+          } else {
+            print("Success!")
+            image = UIImage(data: data!)!
+          }
+        }
+        
+    
+            return image
+     */
+        /*
+        
+        let storage = Storage.storage()
+        var image = UIImage()
+        
+        var muralSelected = muralDataModel(title: "", artist: "", latitude: 0, longitude: 0, imageRef: "")
+        for each in murals
+        {
+            if each.title == title
+            {
+                muralSelected = each
+                break
+
+            }
+            
+        }
+        
+        let imageURL = muralSelected?.imageRef
+        let ref = storage.reference(forURL: imageURL! as String)
+
+        
+        // Download in memory with a maximum allowed size of 1MB (1 * 1024 * 1024 bytes)
+        ref.getData(maxSize: 1 * 1024 * 1024) { data, error in
+          if let error = error {
+            // Uh-oh, an error occurred!
+          } else {
+            
+            image = UIImage(data: data!)!
+          }
+        }
+        
+    
+            return image
+        
+    }
+     */
     func getAllDocs()
     {
         firestoreDB.collection("Murals").getDocuments { (snapshot, error) in

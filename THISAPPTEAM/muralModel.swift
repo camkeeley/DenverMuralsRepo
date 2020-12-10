@@ -9,11 +9,11 @@ import Foundation
 
 public struct muralDataModel
 {
-    let title: NSString
-    let artist: NSString
-    let latitude: Double
-    let longitude: Double
-    let imageRef: NSString
+    var title: NSString
+    var artist: NSString
+    var latitude: Double
+    var longitude: Double
+    var imageRef: NSString
     
     
     public init?(title: NSString, artist: NSString, latitude: Double, longitude: Double, imageRef: NSString)

@@ -21,6 +21,7 @@
 		A8008C27258027730068BB75 /* FirebaseDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8008C26258027730068BB75 /* FirebaseDB.swift */; };
 		A8008D512580AE9D0068BB75 /* muralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8008D502580AE9D0068BB75 /* muralModel.swift */; };
 		A8008D562580B2BC0068BB75 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8008D552580B2BC0068BB75 /* GlobalVariables.swift */; };
+		A8BDEA952581772800E3BE6C /* DemoImageRetrievalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BDEA942581772800E3BE6C /* DemoImageRetrievalViewController.swift */; };
 		A8D0B006257F3FFC00D88A6F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0B005257F3FFC00D88A6F /* LoginViewController.swift */; };
 		A8D0B008257F404C00D88A6F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D0B007257F404C00D88A6F /* SignUpViewController.swift */; };
 		A8D0B011257F61E700D88A6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8D0B010257F61E700D88A6F /* GoogleService-Info.plist */; };
@@ -69,6 +70,7 @@
 		A8008C26258027730068BB75 /* FirebaseDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseDB.swift; sourceTree = "<group>"; };
 		A8008D502580AE9D0068BB75 /* muralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muralModel.swift; sourceTree = "<group>"; };
 		A8008D552580B2BC0068BB75 /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GlobalVariables.swift; path = ../../../Desktop/GlobalVariables.swift; sourceTree = "<group>"; };
+		A8BDEA942581772800E3BE6C /* DemoImageRetrievalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageRetrievalViewController.swift; sourceTree = "<group>"; };
 		A8D0B005257F3FFC00D88A6F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A8D0B007257F404C00D88A6F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A8D0B010257F61E700D88A6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -126,9 +128,10 @@
 		2E9F0B1A257EF1220034098C /* THISAPPTEAM */ = {
 			isa = PBXGroup;
 			children = (
-				A8D0B009257F415E00D88A6F /* ViewControllers */,
-				2E9F0B1B257EF1220034098C /* AppDelegate.swift */,
 				2E9F0B1D257EF1220034098C /* SceneDelegate.swift */,
+				A8D0B009257F415E00D88A6F /* ViewControllers */,
+				A8008C26258027730068BB75 /* FirebaseDB.swift */,
+				2E9F0B1B257EF1220034098C /* AppDelegate.swift */,
 				2E9F0B24257EF1250034098C /* Assets.xcassets */,
 				2E9F0B26257EF1250034098C /* LaunchScreen.storyboard */,
 				2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */,
@@ -136,7 +139,6 @@
 				2E9F0B29257EF1250034098C /* Info.plist */,
 				A8D0B010257F61E700D88A6F /* GoogleService-Info.plist */,
 				2E9F0B4E257EF13B0034098C /* Main.storyboard */,
-				A8008C26258027730068BB75 /* FirebaseDB.swift */,
 				A8008D502580AE9D0068BB75 /* muralModel.swift */,
 				A8008D552580B2BC0068BB75 /* GlobalVariables.swift */,
 			);
@@ -160,9 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
-				A8D0B007257F404C00D88A6F /* SignUpViewController.swift */,
 				A8D0B005257F3FFC00D88A6F /* LoginViewController.swift */,
 				2E9F0B1F257EF1220034098C /* ViewController.swift */,
+				A8D0B007257F404C00D88A6F /* SignUpViewController.swift */,
+				A8BDEA942581772800E3BE6C /* DemoImageRetrievalViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				A8008D512580AE9D0068BB75 /* muralModel.swift in Sources */,
 				A8D0B008257F404C00D88A6F /* SignUpViewController.swift in Sources */,
 				2E9F0B1C257EF1220034098C /* AppDelegate.swift in Sources */,
+				A8BDEA952581772800E3BE6C /* DemoImageRetrievalViewController.swift in Sources */,
 				A8008D562580B2BC0068BB75 /* GlobalVariables.swift in Sources */,
 				2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */,
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
