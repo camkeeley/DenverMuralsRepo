@@ -39,6 +39,30 @@ class MapViewController: UIViewController {
                annotation_two.subtitle = "Neighborhood of the murals"
                mapView.addAnnotation(annotation_two)
                
+        //Iterates through the murals array and makes a pin for each mural in "Murals" collection
+            for each in murals
+            {
+        //               let newMuralPoint = MKPointAnnotation()
+        //                newMuralPoint.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(each.latitude), longitude: CLLocationDegrees(each.longitude))
+        //                newMuralPoint.title = each.title as String
+        //                newMuralPoint.subtitle = each.artist as String
+        //                mapView.addAnnotation(newMuralPoint)
+                 if(each.title != "")
+             {
+                 let newMuralPoint = MKPointAnnotation()
+                 newMuralPoint.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(each.latitude), longitude: CLLocationDegrees(each.longitude))
+                  newMuralPoint.title = each.title as String
+                  newMuralPoint.subtitle = each.artist as String
+                  mapView.addAnnotation(newMuralPoint)
+
+                 print(each.artist as String + "\(each.latitude)" + "\(each.longitude)")
+             }
+
+
+
+
+             }
+        
                // Address of La Alma Recreation Center
                let mural_one = MKPointAnnotation()
                mural_one.coordinate = CLLocationCoordinate2D(latitude: 39.735271, longitude: -105.004059)
