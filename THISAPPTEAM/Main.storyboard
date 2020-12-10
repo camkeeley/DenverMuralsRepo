@@ -195,7 +195,7 @@
             </objects>
             <point key="canvasLocation" x="1045" y="406"/>
         </scene>
-        <!--Item-->
+        <!--Map-->
         <scene sceneID="fxh-Ur-8E3">
             <objects>
                 <viewController id="9Vf-Zy-3iQ" customClass="ViewController" customModule="THISAPPTEAM" customModuleProvider="target" sceneMemberID="viewController">
@@ -211,7 +211,7 @@
                         <viewLayoutGuide key="safeArea" id="Vd7-2Q-bYQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Ed1-Mc-YSo"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="Ed1-Mc-YSo"/>
                     <navigationItem key="navigationItem" id="m2w-2t-dAT"/>
                     <connections>
                         <outlet property="mapView" destination="Fcf-vf-aax" id="08Q-7h-dY8"/>
@@ -577,9 +577,8 @@ On one side of this mural there’s recognition of the  puebloans and on the oth
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yVN-Uq-O3O"/>
         <segue reference="lMZ-aj-ojZ"/>
-        <segue reference="jTb-om-iE3"/>
+        <segue reference="O1g-el-bLv"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="denver-2230512_1920" width="568" height="702"/>
@@ -603,4 +602,3 @@ On one side of this mural there’s recognition of the  puebloans and on the oth
         </systemColor>
     </resources>
 </document>
-
