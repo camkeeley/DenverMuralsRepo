@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Log In View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LogInViewController" customModule="THISAPPTEAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -216,8 +216,6 @@
                     <connections>
                         <outlet property="mapView" destination="Fcf-vf-aax" id="08Q-7h-dY8"/>
                         <segue destination="wfl-gx-Otg" kind="show" identifier="Mural1" id="yVN-Uq-O3O"/>
-                        <segue destination="DAH-Ps-dyb" kind="show" identifier="Mural2" id="YME-Ni-drN"/>
-                        <segue destination="qDC-ad-Q03" kind="show" identifier="PinClickSegue" id="oXw-FS-aqj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eqf-B9-fJ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -441,7 +439,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZLK-fF-7Tt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3809" y="-2354"/>
+            <point key="canvasLocation" x="5074" y="-2586"/>
         </scene>
         <!--Mural1-->
         <scene sceneID="eLk-Uy-Bfg">
@@ -510,7 +508,7 @@ On one side of this mural there’s recognition of the  puebloans and on the oth
             <objects>
                 <viewController id="qDC-ad-Q03" customClass="PinClickViewController" customModule="THISAPPTEAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fzT-41-UCl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HyY-pz-7Kf">
@@ -528,14 +526,14 @@ On one side of this mural there’s recognition of the  puebloans and on the oth
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L2n-xq-5Vs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1977" y="-2312"/>
+            <point key="canvasLocation" x="5074" y="-1906"/>
         </scene>
         <!--Item-->
         <scene sceneID="EAk-pS-vSG">
             <objects>
                 <viewController id="DAH-Ps-dyb" customClass="Mural2" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3PH-oy-b8x">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="InX-oO-6AX">
@@ -551,7 +549,7 @@ On one side of this mural there’s recognition of the  puebloans and on the oth
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T71-Lp-orH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2851" y="-1042"/>
+            <point key="canvasLocation" x="5074" y="-1205"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="aLy-sp-BLy">
@@ -578,7 +576,7 @@ On one side of this mural there’s recognition of the  puebloans and on the oth
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="lMZ-aj-ojZ"/>
-        <segue reference="O1g-el-bLv"/>
+        <segue reference="jTb-om-iE3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="denver-2230512_1920" width="568" height="702"/>
