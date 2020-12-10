@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,7 @@
 		60AE1A4E2581DCA60008E759 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A4D2581DCA60008E759 /* Artwork.swift */; };
 		60AE1A562581DCF30008E759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE1A552581DCF30008E759 /* Main.storyboard */; };
 		60AE1A612581DFAC0008E759 /* Mural2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A602581DFAC0008E759 /* Mural2.swift */; };
+		A84E70FD2581FD2D00F6CB8C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A84E70FC2581FD2D00F6CB8C /* GoogleService-Info.plist */; };
 		E5F406B1BA036238DC4BD5D7 /* Pods_THISAPPTEAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D4405CCB90C69AADAF4E3C /* Pods_THISAPPTEAM.framework */; };
 		EA2ED2A8B4AA869DE7145069 /* Pods_THISAPPTEAMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B0837DB6C1D80DFC7A1431 /* Pods_THISAPPTEAMTests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		7A82BC7E65701D96C7FD6A83 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8515EF3D1AD9E1703ED4F8A9 /* Pods-THISAPPTEAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM.debug.xcconfig"; sourceTree = "<group>"; };
 		97115B331D1EB2665D55BF32 /* Pods-THISAPPTEAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM.release.xcconfig"; sourceTree = "<group>"; };
+		A84E70FC2581FD2D00F6CB8C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A9B5946D58603C8D44F1C66A /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C308231234B0B31DB652B647 /* Pods-THISAPPTEAMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D07985E7925A22CF51AAF94F /* Pods-THISAPPTEAMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
 				2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */,
 				2E9F0B69257EF4400034098C /* muralStruct.swift */,
+				A84E70FC2581FD2D00F6CB8C /* GoogleService-Info.plist */,
 				2E9F0B29257EF1250034098C /* Info.plist */,
 				60AE1A282581D6F30008E759 /* TestGitPush.swift */,
 			);
@@ -150,7 +153,6 @@
 				C308231234B0B31DB652B647 /* Pods-THISAPPTEAMTests.debug.xcconfig */,
 				D07985E7925A22CF51AAF94F /* Pods-THISAPPTEAMTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -273,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E9F0B25257EF1250034098C /* Assets.xcassets in Resources */,
+				A84E70FD2581FD2D00F6CB8C /* GoogleService-Info.plist in Resources */,
 				2E9F0B892581CC5D0034098C /* Launch Screen.storyboard in Resources */,
 				60AE1A562581DCF30008E759 /* Main.storyboard in Resources */,
 			);

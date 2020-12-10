@@ -7,7 +7,12 @@ target 'THISAPPTEAM' do
 
   # Pods for THISAPPTEAM
 
-  pod 'Firebase/Firestore'
+	pod 'Firebase/Core'
+	pod 'Firebase/Database'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Firestore'
+	pod 'Firebase/Storage'
+	pod 'FirebaseUI/Storage'
 
   target 'THISAPPTEAMTests' do
     inherit! :search_paths
