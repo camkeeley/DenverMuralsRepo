@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D28153A52B4863EAFD4265515545ED3 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E945D21EAE01DF1B1844F40E36B716CE /* Pods-THISAPPTEAM-THISAPPTEAMUITests-dummy.m */; };
+		3D3001D662A7B45DB1FA9794F46931DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3ED261719F7A1902FFAB346A944E7989 /* Pods-THISAPPTEAMTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E04540E4E50187DED39AC09594853FD9 /* Pods-THISAPPTEAMTests-dummy.m */; };
+		67EBF3C6C712B03D85FBF9A301C31BDC /* Pods-THISAPPTEAMTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA12184F9BCC715BCA3832004C5F2751 /* Pods-THISAPPTEAMTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7272751CAD22D759BEFDB0FE2AD07A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77D97B251B0377BEF2E238CFD639C1CA /* Pods-THISAPPTEAM-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7099BBE139DF39C209AE1F97E5555E3D /* Pods-THISAPPTEAM-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E458D434F8EFBA57ECA8C2DA39E0901 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A7E3F1C2E8AD5D2F2E0B82A0D4CE21 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97ADB62256EB43C344443F8C823F8F43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B1BBC12937BE58902A3AE157E877672E /* Pods-THISAPPTEAM-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FC96A6DB72CCD3DD98D13640484194 /* Pods-THISAPPTEAM-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6B1BA3FAD84C640D2F9B79B35EA6B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4203F7CA6E0DE660C9363C4DF4E6A278;
+			remoteInfo = "Pods-THISAPPTEAM";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1071556730806194065A30F22DE9F487 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests-Info.plist"; sourceTree = "<group>"; };
+		114BC702F2876174B8E47674E0DEB8CA /* Pods-THISAPPTEAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THISAPPTEAM.debug.xcconfig"; sourceTree = "<group>"; };
+		1B449162300FD99935CE85973D317444 /* Pods-THISAPPTEAMTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THISAPPTEAMTests-Info.plist"; sourceTree = "<group>"; };
+		29F2CD13F9AD73B9DE0319947140F0F1 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CF5C34D10359CC32384857C894BC974 /* Pods_THISAPPTEAMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THISAPPTEAMTests.framework; path = "Pods-THISAPPTEAMTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8605F99CDADC4F5524D850CD12BB36 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		35C5195D241C772BA7926CBD1833D112 /* Pods-THISAPPTEAMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THISAPPTEAMTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A306B404A9DBA7CD2B6B4423B21094D /* Pods-THISAPPTEAMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THISAPPTEAMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		450A0F412861AEED5C3A9173C226189F /* Pods-THISAPPTEAMTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THISAPPTEAMTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48248CF164E32113CEA7A39AFF1A0D4A /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THISAPPTEAM_THISAPPTEAMUITests.framework; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60125EC27C87626FBEEEFD26B9BEB177 /* Pods-THISAPPTEAM.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THISAPPTEAM.modulemap"; sourceTree = "<group>"; };
+		60FC96A6DB72CCD3DD98D13640484194 /* Pods-THISAPPTEAM-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THISAPPTEAM-dummy.m"; sourceTree = "<group>"; };
+		7099BBE139DF39C209AE1F97E5555E3D /* Pods-THISAPPTEAM-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THISAPPTEAM-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		96619F9A8B7145F71CCB082F149C21D5 /* Pods-THISAPPTEAM-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THISAPPTEAM-acknowledgements.plist"; sourceTree = "<group>"; };
+		99D5FA9314D134FCA9E35D2C9017D697 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3E0BD5C7282CA328F88D4521327DBEA /* Pods-THISAPPTEAM-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THISAPPTEAM-Info.plist"; sourceTree = "<group>"; };
+		AA8B7218AEDA9BB0BFC5B0E4DC264A35 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests.modulemap"; sourceTree = "<group>"; };
+		B6E75627B6B0600F36A59D15A050AF76 /* Pods-THISAPPTEAMTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-THISAPPTEAMTests.modulemap"; sourceTree = "<group>"; };
+		C5749D5F394B8EB5117181ED7551279B /* Pods-THISAPPTEAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-THISAPPTEAM.release.xcconfig"; sourceTree = "<group>"; };
+		D2A1EAE3C7971C848D7FC5015B603334 /* Pods_THISAPPTEAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_THISAPPTEAM.framework; path = "Pods-THISAPPTEAM.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42E79A7D43596358974734221338253 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D8F346C2D1D22C865CB02DCDECC95DB6 /* Pods-THISAPPTEAMTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-THISAPPTEAMTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA70DBC814CE053BEDC02E773EA1503B /* Pods-THISAPPTEAM-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-THISAPPTEAM-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E04540E4E50187DED39AC09594853FD9 /* Pods-THISAPPTEAMTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THISAPPTEAMTests-dummy.m"; sourceTree = "<group>"; };
+		E4A7E3F1C2E8AD5D2F2E0B82A0D4CE21 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests-umbrella.h"; sourceTree = "<group>"; };
+		E945D21EAE01DF1B1844F40E36B716CE /* Pods-THISAPPTEAM-THISAPPTEAMUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-THISAPPTEAM-THISAPPTEAMUITests-dummy.m"; sourceTree = "<group>"; };
+		EA12184F9BCC715BCA3832004C5F2751 /* Pods-THISAPPTEAMTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-THISAPPTEAMTests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A12440913C9604D8319F5D2B4AC6234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97ADB62256EB43C344443F8C823F8F43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5944B1C383DE45D8BA388DB4B5F37281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3001D662A7B45DB1FA9794F46931DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6528C3BEE484FAEF71A335333924386F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7272751CAD22D759BEFDB0FE2AD07A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36DD50382910C60E29F0001CB94DBDFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A1EAE3C7971C848D7FC5015B603334 /* Pods_THISAPPTEAM.framework */,
+				48248CF164E32113CEA7A39AFF1A0D4A /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework */,
+				2CF5C34D10359CC32384857C894BC974 /* Pods_THISAPPTEAMTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AFB4643FB53E425F6B177E8870996F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E32CFFAEAA8A9DF29BDB67EDE7C17458 /* Pods-THISAPPTEAM */,
+				95D934027943738A68504EDA1655CD4C /* Pods-THISAPPTEAM-THISAPPTEAMUITests */,
+				A9D0DB6C3A5A6D6354E1E926A36953E5 /* Pods-THISAPPTEAMTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95D934027943738A68504EDA1655CD4C /* Pods-THISAPPTEAM-THISAPPTEAMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA8B7218AEDA9BB0BFC5B0E4DC264A35 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.modulemap */,
+				D42E79A7D43596358974734221338253 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-acknowledgements.markdown */,
+				99D5FA9314D134FCA9E35D2C9017D697 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-acknowledgements.plist */,
+				E945D21EAE01DF1B1844F40E36B716CE /* Pods-THISAPPTEAM-THISAPPTEAMUITests-dummy.m */,
+				1071556730806194065A30F22DE9F487 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-Info.plist */,
+				E4A7E3F1C2E8AD5D2F2E0B82A0D4CE21 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-umbrella.h */,
+				2E8605F99CDADC4F5524D850CD12BB36 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */,
+				29F2CD13F9AD73B9DE0319947140F0F1 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig */,
+			);
+			name = "Pods-THISAPPTEAM-THISAPPTEAMUITests";
+			path = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests";
+			sourceTree = "<group>";
+		};
+		A9D0DB6C3A5A6D6354E1E926A36953E5 /* Pods-THISAPPTEAMTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6E75627B6B0600F36A59D15A050AF76 /* Pods-THISAPPTEAMTests.modulemap */,
+				450A0F412861AEED5C3A9173C226189F /* Pods-THISAPPTEAMTests-acknowledgements.markdown */,
+				D8F346C2D1D22C865CB02DCDECC95DB6 /* Pods-THISAPPTEAMTests-acknowledgements.plist */,
+				E04540E4E50187DED39AC09594853FD9 /* Pods-THISAPPTEAMTests-dummy.m */,
+				1B449162300FD99935CE85973D317444 /* Pods-THISAPPTEAMTests-Info.plist */,
+				EA12184F9BCC715BCA3832004C5F2751 /* Pods-THISAPPTEAMTests-umbrella.h */,
+				3A306B404A9DBA7CD2B6B4423B21094D /* Pods-THISAPPTEAMTests.debug.xcconfig */,
+				35C5195D241C772BA7926CBD1833D112 /* Pods-THISAPPTEAMTests.release.xcconfig */,
+			);
+			name = "Pods-THISAPPTEAMTests";
+			path = "Target Support Files/Pods-THISAPPTEAMTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				36DD50382910C60E29F0001CB94DBDFA /* Products */,
+				7AFB4643FB53E425F6B177E8870996F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E32CFFAEAA8A9DF29BDB67EDE7C17458 /* Pods-THISAPPTEAM */ = {
+			isa = PBXGroup;
+			children = (
+				60125EC27C87626FBEEEFD26B9BEB177 /* Pods-THISAPPTEAM.modulemap */,
+				DA70DBC814CE053BEDC02E773EA1503B /* Pods-THISAPPTEAM-acknowledgements.markdown */,
+				96619F9A8B7145F71CCB082F149C21D5 /* Pods-THISAPPTEAM-acknowledgements.plist */,
+				60FC96A6DB72CCD3DD98D13640484194 /* Pods-THISAPPTEAM-dummy.m */,
+				A3E0BD5C7282CA328F88D4521327DBEA /* Pods-THISAPPTEAM-Info.plist */,
+				7099BBE139DF39C209AE1F97E5555E3D /* Pods-THISAPPTEAM-umbrella.h */,
+				114BC702F2876174B8E47674E0DEB8CA /* Pods-THISAPPTEAM.debug.xcconfig */,
+				C5749D5F394B8EB5117181ED7551279B /* Pods-THISAPPTEAM.release.xcconfig */,
+			);
+			name = "Pods-THISAPPTEAM";
+			path = "Target Support Files/Pods-THISAPPTEAM";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02BE808A451D9E15064784888CA1C969 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D97B251B0377BEF2E238CFD639C1CA /* Pods-THISAPPTEAM-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98668E91740208D75B807D51C639940 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E458D434F8EFBA57ECA8C2DA39E0901 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7B29401866129EC8B6A6566B240553 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EBF3C6C712B03D85FBF9A301C31BDC /* Pods-THISAPPTEAMTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26076812C8E07FB29966F92A15E45E1E /* Pods-THISAPPTEAMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0581A4436D6D6791DF7667F27069ABB /* Build configuration list for PBXNativeTarget "Pods-THISAPPTEAMTests" */;
+			buildPhases = (
+				FB7B29401866129EC8B6A6566B240553 /* Headers */,
+				4D7FDF0DB1786BB5FA4FEC135B3ECD1F /* Sources */,
+				6528C3BEE484FAEF71A335333924386F /* Frameworks */,
+				D586E70E29F6045666C93D0CDC6AC3F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				669BE0CA42706DB0A440E8F6CEC8F8CD /* PBXTargetDependency */,
+			);
+			name = "Pods-THISAPPTEAMTests";
+			productName = "Pods-THISAPPTEAMTests";
+			productReference = 2CF5C34D10359CC32384857C894BC974 /* Pods_THISAPPTEAMTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4203F7CA6E0DE660C9363C4DF4E6A278 /* Pods-THISAPPTEAM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488A8B8CE526C6CA9DF1D19E4F35C5FE /* Build configuration list for PBXNativeTarget "Pods-THISAPPTEAM" */;
+			buildPhases = (
+				02BE808A451D9E15064784888CA1C969 /* Headers */,
+				765A2E0F042C0DF0502A022C61076860 /* Sources */,
+				5944B1C383DE45D8BA388DB4B5F37281 /* Frameworks */,
+				CCF5E8ED37647E891865917E3D9E8518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-THISAPPTEAM";
+			productName = "Pods-THISAPPTEAM";
+			productReference = D2A1EAE3C7971C848D7FC5015B603334 /* Pods_THISAPPTEAM.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE0A39DA0C14127A50FFE3A942712384 /* Pods-THISAPPTEAM-THISAPPTEAMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49BB0BD13C72873C7098329181CBC87E /* Build configuration list for PBXNativeTarget "Pods-THISAPPTEAM-THISAPPTEAMUITests" */;
+			buildPhases = (
+				F98668E91740208D75B807D51C639940 /* Headers */,
+				726E41273E7930053931B3A7353F1630 /* Sources */,
+				0A12440913C9604D8319F5D2B4AC6234 /* Frameworks */,
+				3CA2AE88550FC432BF04CF81F5BB353F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-THISAPPTEAM-THISAPPTEAMUITests";
+			productName = "Pods-THISAPPTEAM-THISAPPTEAMUITests";
+			productReference = 48248CF164E32113CEA7A39AFF1A0D4A /* Pods_THISAPPTEAM_THISAPPTEAMUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 36DD50382910C60E29F0001CB94DBDFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4203F7CA6E0DE660C9363C4DF4E6A278 /* Pods-THISAPPTEAM */,
+				CE0A39DA0C14127A50FFE3A942712384 /* Pods-THISAPPTEAM-THISAPPTEAMUITests */,
+				26076812C8E07FB29966F92A15E45E1E /* Pods-THISAPPTEAMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CA2AE88550FC432BF04CF81F5BB353F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF5E8ED37647E891865917E3D9E8518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D586E70E29F6045666C93D0CDC6AC3F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D7FDF0DB1786BB5FA4FEC135B3ECD1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ED261719F7A1902FFAB346A944E7989 /* Pods-THISAPPTEAMTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726E41273E7930053931B3A7353F1630 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D28153A52B4863EAFD4265515545ED3 /* Pods-THISAPPTEAM-THISAPPTEAMUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		765A2E0F042C0DF0502A022C61076860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BBC12937BE58902A3AE157E877672E /* Pods-THISAPPTEAM-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		669BE0CA42706DB0A440E8F6CEC8F8CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-THISAPPTEAM";
+			target = 4203F7CA6E0DE660C9363C4DF4E6A278 /* Pods-THISAPPTEAM */;
+			targetProxy = B6B1BA3FAD84C640D2F9B79B35EA6B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		003F93A8026FA83AFECB7080624D6782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5749D5F394B8EB5117181ED7551279B /* Pods-THISAPPTEAM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		23F50D1EBFE1DAC4C18966F6668449EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8605F99CDADC4F5524D850CD12BB36 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57B290F99CF458E659A271AC5BB96B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114BC702F2876174B8E47674E0DEB8CA /* Pods-THISAPPTEAM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THISAPPTEAM/Pods-THISAPPTEAM.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6C6178559BD9074C26E073DF5769DB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0C069C30C17D818FCF97206EC98CD59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35C5195D241C772BA7926CBD1833D112 /* Pods-THISAPPTEAMTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D196EACEE8ECED92CE2CFB63DE158C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F2CD13F9AD73B9DE0319947140F0F1 /* Pods-THISAPPTEAM-THISAPPTEAMUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E84E21FE31FA66D37AA00215CAFB6D3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A306B404A9DBA7CD2B6B4423B21094D /* Pods-THISAPPTEAMTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6178559BD9074C26E073DF5769DB42 /* Debug */,
+				5B82FA55F6A12DBC8196D07B0C1EEB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488A8B8CE526C6CA9DF1D19E4F35C5FE /* Build configuration list for PBXNativeTarget "Pods-THISAPPTEAM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B290F99CF458E659A271AC5BB96B86 /* Debug */,
+				003F93A8026FA83AFECB7080624D6782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49BB0BD13C72873C7098329181CBC87E /* Build configuration list for PBXNativeTarget "Pods-THISAPPTEAM-THISAPPTEAMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F50D1EBFE1DAC4C18966F6668449EC /* Debug */,
+				D196EACEE8ECED92CE2CFB63DE158C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0581A4436D6D6791DF7667F27069ABB /* Build configuration list for PBXNativeTarget "Pods-THISAPPTEAMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E84E21FE31FA66D37AA00215CAFB6D3A /* Debug */,
+				B0C069C30C17D818FCF97206EC98CD59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

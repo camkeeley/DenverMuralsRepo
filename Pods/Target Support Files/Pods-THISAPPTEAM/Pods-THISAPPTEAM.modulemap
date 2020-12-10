@@ -1,0 +1,6 @@
+framework module Pods_THISAPPTEAM {
+  umbrella header "Pods-THISAPPTEAM-umbrella.h"
+
+  export *
+  module * { export * }
+}
