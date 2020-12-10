@@ -55,16 +55,16 @@ class ViewController: UIViewController {
         
         
         let artwork = Artwork(
-            title: "La Alma / Lincoln Park",
-            locationName: "Neighborhood of the murals",
+            title: "La Alma de la Mariposa",
+            locationName: "Artist: JOLT",
             discipline: "Murals",
-            coordinate: CLLocationCoordinate2D(latitude: 39.7333, longitude: -105.0054))
+            coordinate: CLLocationCoordinate2D(latitude: 39.733720, longitude: -105.005320))
         
         let artwork2 = Artwork(
-            title: "Past to Future",
-            locationName: "Artist: Daniel Lowensteinz",
+            title: "Learning from the Past",
+            locationName: "Artist: Andy Mendoza",
             discipline: "Murals",
-            coordinate: CLLocationCoordinate2D(latitude: 39.734810, longitude: -105.005740))
+            coordinate: CLLocationCoordinate2D(latitude: 39.734810, longitude: -105.005737))
         mapView.addAnnotation(artwork)
         mapView.addAnnotation(artwork2)
     }
@@ -118,18 +118,18 @@ extension ViewController: MKMapViewDelegate {
 //            print(view.annotation?.title)
 //            performSegue(withIdentifier: "PinClickSegue", sender: self )
             //user go to La Alma
-            if view.annotation?.title == "La Alma / Lincoln Park"
-            {
+//            if view.annotation?.title == "La Alma / Lincoln Park"
+//            {
               print(view.annotation?.title)
               performSegue(withIdentifier: "Mural1", sender: self )
-            }
+//            }
 
             // user go to Past to Future
-            if view.annotation?.title == "Past to Future"
-            {
-              print(view.annotation?.title)
-              performSegue(withIdentifier: "Mural2", sender: self)
-            }
+//            if view.annotation?.title == "Past to Future"
+ //           {
+//              print(view.annotation?.title)
+//              performSegue(withIdentifier: "Mural2", sender: self)
+//            }
             
             // check for commit
             print("commit")
