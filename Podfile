@@ -13,6 +13,7 @@ target 'THISAPPTEAM' do
 	pod 'Firebase/Firestore'
 	pod 'Firebase/Storage'
 	pod 'FirebaseUI/Storage'
+  pod 'GoogleSignIn'
 
   target 'THISAPPTEAMTests' do
     inherit! :search_paths
