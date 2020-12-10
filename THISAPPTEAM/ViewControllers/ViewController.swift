@@ -5,15 +5,27 @@
 //  Created by 浮生物语 on 2020/12/9.
 //
 
+import FirebaseDatabase
+import Firebase
+
 import UIKit
 import MapKit
 
 class ViewController: UIViewController {
+    
+//    private let realtimeDB = Database.database().reference()
+    private var firestoreDB:FirebaseDB = FirebaseDB()
+
+    
     @IBOutlet private var mapView: MKMapView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        firestoreDB.createNewCollection()
+        firestoreDB.getAllDocs()
+        
         let initialLocation = CLLocation(latitude: 39.7333, longitude: -105.0054)
         mapView.centerToLocation(initialLocation)
         
