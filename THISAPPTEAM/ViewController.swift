@@ -96,6 +96,8 @@ extension ViewController: MKMapViewDelegate {
               performSegue(withIdentifier: "Mural2", sender: self)
             }
             
+            // check for commit
+            print("commit")
           }
     }
 
