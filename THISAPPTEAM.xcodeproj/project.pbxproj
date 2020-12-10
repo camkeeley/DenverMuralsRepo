@@ -16,10 +16,10 @@
 		2E9F0B892581CC5D0034098C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */; };
 		60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A282581D6F30008E759 /* TestGitPush.swift */; };
 		60AE1A392581D8B70008E759 /* Mural1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A382581D8B70008E759 /* Mural1.swift */; };
-		60AE1A412581DBEE0008E759 /* Mural2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A402581DBEE0008E759 /* Mural2.swift */; };
 		60AE1A492581DC3B0008E759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A482581DC3B0008E759 /* ViewController.swift */; };
 		60AE1A4E2581DCA60008E759 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A4D2581DCA60008E759 /* Artwork.swift */; };
 		60AE1A562581DCF30008E759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE1A552581DCF30008E759 /* Main.storyboard */; };
+		60AE1A612581DFAC0008E759 /* Mural2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A602581DFAC0008E759 /* Mural2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		60AE1A282581D6F30008E759 /* TestGitPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitPush.swift; sourceTree = "<group>"; };
 		60AE1A382581D8B70008E759 /* Mural1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mural1.swift; sourceTree = "<group>"; };
-		60AE1A402581DBEE0008E759 /* Mural2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mural2.swift; sourceTree = "<group>"; };
 		60AE1A482581DC3B0008E759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60AE1A4D2581DCA60008E759 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
 		60AE1A552581DCF30008E759 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		60AE1A602581DFAC0008E759 /* Mural2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mural2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +113,7 @@
 				60AE1A4D2581DCA60008E759 /* Artwork.swift */,
 				60AE1A482581DC3B0008E759 /* ViewController.swift */,
 				60AE1A382581D8B70008E759 /* Mural1.swift */,
-				60AE1A402581DBEE0008E759 /* Mural2.swift */,
+				60AE1A602581DFAC0008E759 /* Mural2.swift */,
 				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
 				2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */,
 				2E9F0B69257EF4400034098C /* muralStruct.swift */,
@@ -253,9 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60AE1A612581DFAC0008E759 /* Mural2.swift in Sources */,
 				60AE1A4E2581DCA60008E759 /* Artwork.swift in Sources */,
 				60AE1A492581DC3B0008E759 /* ViewController.swift in Sources */,
-				60AE1A412581DBEE0008E759 /* Mural2.swift in Sources */,
 				2E9F0B1C257EF1220034098C /* AppDelegate.swift in Sources */,
 				2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */,
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
