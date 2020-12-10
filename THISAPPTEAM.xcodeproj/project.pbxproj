@@ -19,6 +19,7 @@
 		60AE1A1A2581D1030008E759 /* Mural2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A182581D1030008E759 /* Mural2.swift */; };
 		60AE1A1F2581D10F0008E759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE1A1E2581D10F0008E759 /* Main.storyboard */; };
 		60AE1A242581D1450008E759 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A232581D1450008E759 /* Artwork.swift */; };
+		60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A282581D6F30008E759 /* TestGitPush.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		60AE1A182581D1030008E759 /* Mural2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mural2.swift; path = "../../THISAPPTEAM-main/THISAPPTEAM/Mural2.swift"; sourceTree = "<group>"; };
 		60AE1A1E2581D10F0008E759 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../THISAPPTEAM-main/THISAPPTEAM/Main.storyboard"; sourceTree = "<group>"; };
 		60AE1A232581D1450008E759 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Artwork.swift; path = "../../THISAPPTEAM-main/THISAPPTEAM/Artwork.swift"; sourceTree = "<group>"; };
+		60AE1A282581D6F30008E759 /* TestGitPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitPush.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */,
 				2E9F0B69257EF4400034098C /* muralStruct.swift */,
 				2E9F0B29257EF1250034098C /* Info.plist */,
+				60AE1A282581D6F30008E759 /* TestGitPush.swift */,
 			);
 			path = THISAPPTEAM;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
 				2E9F0B1E257EF1220034098C /* SceneDelegate.swift in Sources */,
 				60AE1A242581D1450008E759 /* Artwork.swift in Sources */,
+				60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */,
 				2E9F0B60257EF4170034098C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
