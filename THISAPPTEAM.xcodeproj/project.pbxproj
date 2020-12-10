@@ -15,11 +15,11 @@
 		2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B69257EF4400034098C /* muralStruct.swift */; };
 		2E9F0B892581CC5D0034098C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */; };
 		60AE1A132581D0F20008E759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A122581D0F20008E759 /* ViewController.swift */; };
-		60AE1A192581D1030008E759 /* Mural1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A172581D1030008E759 /* Mural1.swift */; };
 		60AE1A1A2581D1030008E759 /* Mural2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A182581D1030008E759 /* Mural2.swift */; };
 		60AE1A1F2581D10F0008E759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60AE1A1E2581D10F0008E759 /* Main.storyboard */; };
 		60AE1A242581D1450008E759 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A232581D1450008E759 /* Artwork.swift */; };
 		60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A282581D6F30008E759 /* TestGitPush.swift */; };
+		60AE1A392581D8B70008E759 /* Mural1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A382581D8B70008E759 /* Mural1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,11 +52,11 @@
 		2E9F0B69257EF4400034098C /* muralStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = muralStruct.swift; sourceTree = "<group>"; };
 		2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		60AE1A122581D0F20008E759 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../THISAPPTEAM-main/THISAPPTEAM/ViewController.swift"; sourceTree = "<group>"; };
-		60AE1A172581D1030008E759 /* Mural1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mural1.swift; path = "../../THISAPPTEAM-main/THISAPPTEAM/Mural1.swift"; sourceTree = "<group>"; };
 		60AE1A182581D1030008E759 /* Mural2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Mural2.swift; path = "../../THISAPPTEAM-main/THISAPPTEAM/Mural2.swift"; sourceTree = "<group>"; };
 		60AE1A1E2581D10F0008E759 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../THISAPPTEAM-main/THISAPPTEAM/Main.storyboard"; sourceTree = "<group>"; };
 		60AE1A232581D1450008E759 /* Artwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Artwork.swift; path = "../../THISAPPTEAM-main/THISAPPTEAM/Artwork.swift"; sourceTree = "<group>"; };
 		60AE1A282581D6F30008E759 /* TestGitPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitPush.swift; sourceTree = "<group>"; };
+		60AE1A382581D8B70008E759 /* Mural1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mural1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 				2E9F0B24257EF1250034098C /* Assets.xcassets */,
 				60AE1A122581D0F20008E759 /* ViewController.swift */,
 				60AE1A1E2581D10F0008E759 /* Main.storyboard */,
-				60AE1A172581D1030008E759 /* Mural1.swift */,
+				60AE1A382581D8B70008E759 /* Mural1.swift */,
 				60AE1A182581D1030008E759 /* Mural2.swift */,
 				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
 				2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */,
@@ -256,9 +256,9 @@
 				60AE1A132581D0F20008E759 /* ViewController.swift in Sources */,
 				2E9F0B1C257EF1220034098C /* AppDelegate.swift in Sources */,
 				60AE1A1A2581D1030008E759 /* Mural2.swift in Sources */,
-				60AE1A192581D1030008E759 /* Mural1.swift in Sources */,
 				2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */,
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
+				60AE1A392581D8B70008E759 /* Mural1.swift in Sources */,
 				2E9F0B1E257EF1220034098C /* SceneDelegate.swift in Sources */,
 				60AE1A242581D1450008E759 /* Artwork.swift in Sources */,
 				60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */,
