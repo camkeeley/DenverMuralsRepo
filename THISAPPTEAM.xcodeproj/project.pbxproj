@@ -26,6 +26,7 @@
 		A84E710B2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E710A2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift */; };
 		A84E71102581FDF900F6CB8C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */; };
 		A84E71152581FE0B00F6CB8C /* muralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E71142581FE0B00F6CB8C /* muralModel.swift */; };
+		A84E715725820A2E00F6CB8C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E715625820A2E00F6CB8C /* LogInViewController.swift */; };
 		E5F406B1BA036238DC4BD5D7 /* Pods_THISAPPTEAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D4405CCB90C69AADAF4E3C /* Pods_THISAPPTEAM.framework */; };
 		EA2ED2A8B4AA869DE7145069 /* Pods_THISAPPTEAMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B0837DB6C1D80DFC7A1431 /* Pods_THISAPPTEAMTests.framework */; };
 /* End PBXBuildFile section */
@@ -75,6 +76,7 @@
 		A84E710A2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageRetrievalViewController.swift; sourceTree = "<group>"; };
 		A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		A84E71142581FE0B00F6CB8C /* muralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muralModel.swift; sourceTree = "<group>"; };
+		A84E715625820A2E00F6CB8C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		A9B5946D58603C8D44F1C66A /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C308231234B0B31DB652B647 /* Pods-THISAPPTEAMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D07985E7925A22CF51AAF94F /* Pods-THISAPPTEAMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				A84E71042581FD8400F6CB8C /* ViewControllers */,
+				A84E71052581FDB600F6CB8C /* FirebaseDB.swift */,
 				2E9F0B1B257EF1220034098C /* AppDelegate.swift */,
 				2E9F0B1D257EF1220034098C /* SceneDelegate.swift */,
 				2E9F0B24257EF1250034098C /* Assets.xcassets */,
@@ -146,7 +149,6 @@
 				A84E70FC2581FD2D00F6CB8C /* GoogleService-Info.plist */,
 				2E9F0B29257EF1250034098C /* Info.plist */,
 				60AE1A282581D6F30008E759 /* TestGitPush.swift */,
-				A84E71052581FDB600F6CB8C /* FirebaseDB.swift */,
 				A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */,
 				A84E71142581FE0B00F6CB8C /* muralModel.swift */,
 			);
@@ -172,6 +174,7 @@
 				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
 				60AE1A482581DC3B0008E759 /* ViewController.swift */,
 				A84E710A2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift */,
+				A84E715625820A2E00F6CB8C /* LogInViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				A84E71062581FDB600F6CB8C /* FirebaseDB.swift in Sources */,
 				2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */,
 				A84E710B2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift in Sources */,
+				A84E715725820A2E00F6CB8C /* LogInViewController.swift in Sources */,
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
 				60AE1A392581D8B70008E759 /* Mural1.swift in Sources */,
 				2E9F0B1E257EF1220034098C /* SceneDelegate.swift in Sources */,

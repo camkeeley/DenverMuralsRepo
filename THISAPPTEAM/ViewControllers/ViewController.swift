@@ -14,7 +14,7 @@ import MapKit
 class ViewController: UIViewController {
     
 //    private let realtimeDB = Database.database().reference()
-    private var firestoreDB:FirebaseDB = FirebaseDB()
+    
 
     
     @IBOutlet private var mapView: MKMapView!
@@ -22,14 +22,37 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        firestoreDB.createNewCollection()
-        firestoreDB.getAllDocs()
+   
         
         let initialLocation = CLLocation(latitude: 39.7333, longitude: -105.0054)
         mapView.centerToLocation(initialLocation)
         
         mapView.delegate = self
+        
+        
+        for each in murals
+        {
+//               let newMuralPoint = MKPointAnnotation()
+//                newMuralPoint.coordinate = CLLocationCoordinate2D(latitude: CLLocationDegrees(each.latitude), longitude: CLLocationDegrees(each.longitude))
+//                newMuralPoint.title = each.title as String
+//                newMuralPoint.subtitle = each.artist as String
+//                mapView.addAnnotation(newMuralPoint)
+         if(each.title != "")
+         {
+            let newArtwork = Artwork(title: each.title as String, locationName: "Artist: \(each.artist as String)", discipline: "Murals",
+                coordinate: CLLocationCoordinate2D(latitude: CLLocationDegrees(each.latitude), longitude: CLLocationDegrees(each.longitude)))
+             
+             print(each.artist as String + "\(each.latitude)" + "\(each.longitude) + 50")
+            
+            mapView.addAnnotation(newArtwork)
+         }
+             print("hello, test")
+            
+         
+        
+
+         }
+        
         
         let artwork = Artwork(
             title: "La Alma / Lincoln Park",
