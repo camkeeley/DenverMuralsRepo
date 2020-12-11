@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import UIKit
+
 
 public struct muralDataModel
 {
@@ -13,10 +15,11 @@ public struct muralDataModel
     var artist: NSString
     var latitude: Double
     var longitude: Double
-    var imageRef: NSString
+//    var image: UIImage
+    var image: NSString
+
     
-    
-    public init?(title: NSString, artist: NSString, latitude: Double, longitude: Double, imageRef: NSString)
+    public init?(title: NSString, artist: NSString, latitude: Double, longitude: Double, image: NSString)
     {
        
         
@@ -24,7 +27,9 @@ public struct muralDataModel
         self.artist = artist
         self.latitude = latitude
         self.longitude = longitude
-        self.imageRef = imageRef
+//        self.image = image
+        self.image = image
+
     }
  
  

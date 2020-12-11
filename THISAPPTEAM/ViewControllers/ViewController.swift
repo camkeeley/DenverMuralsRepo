@@ -18,6 +18,7 @@ class ViewController: UIViewController {
 
     
     @IBOutlet private var mapView: MKMapView!
+    private var firestoreDB:FirebaseDB = FirebaseDB()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
         
         mapView.delegate = self
         
-        
+ 
         for each in murals
         {
 //               let newMuralPoint = MKPointAnnotation()
@@ -54,19 +55,21 @@ class ViewController: UIViewController {
          }
         
         
-        let artwork = Artwork(
-            title: "La Alma de la Mariposa",
-            locationName: "Artist: JOLT",
-            discipline: "Murals",
-            coordinate: CLLocationCoordinate2D(latitude: 39.733720, longitude: -105.005320))
         
-        let artwork2 = Artwork(
-            title: "Learning from the Past",
-            locationName: "Artist: Andy Mendoza",
-            discipline: "Murals",
-            coordinate: CLLocationCoordinate2D(latitude: 39.734810, longitude: -105.005737))
-        mapView.addAnnotation(artwork)
-        mapView.addAnnotation(artwork2)
+        
+//        let artwork = Artwork(
+//            title: "La Alma de la Mariposa",
+//            locationName: "Artist: JOLT",
+//            discipline: "Murals",
+//            coordinate: CLLocationCoordinate2D(latitude: 39.733720, longitude: -105.005320))
+//        
+//        let artwork2 = Artwork(
+//            title: "Learning from the Past",
+//            locationName: "Artist: Andy Mendoza",
+//            discipline: "Murals",
+//            coordinate: CLLocationCoordinate2D(latitude: 39.734810, longitude: -105.005737))  -105.005318
+//        mapView.addAnnotation(artwork)
+//        mapView.addAnnotation(artwork2)
     }
 
 
@@ -120,8 +123,23 @@ extension ViewController: MKMapViewDelegate {
             //user go to La Alma
 //            if view.annotation?.title == "La Alma / Lincoln Park"
 //            {
-              print(view.annotation?.title)
-              performSegue(withIdentifier: "Mural1", sender: self )
+
+            //            muralPinClicked = firestoreDB.getDocumentFromTitle(muralTitle: (view.annotation?.title)!!)
+
+            titleOfClickedMural = (view.annotation?.title)!! as NSString
+            
+                print(view.annotation?.title)
+            
+//            for each in murals
+//            {
+//                if(each.title == view.annotation?.title)
+//                {
+//
+//                }
+//            }
+            
+            
+              performSegue(withIdentifier: "MuralPinViewControllerSegue", sender: self )
 //            }
 
             // user go to Past to Future
