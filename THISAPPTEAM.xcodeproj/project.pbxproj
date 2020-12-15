@@ -15,6 +15,17 @@
 		2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */; };
 		2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B69257EF4400034098C /* muralStruct.swift */; };
 		2E9F0B892581CC5D0034098C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */; };
+		2E9F0BFC2585B8E60034098C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0BFB2585B8E60034098C /* SignUpViewController.swift */; };
+		2E9F0C012585BA7C0034098C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0C002585BA7B0034098C /* Constants.swift */; };
+		2E9F0C062585BA9B0034098C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0C052585BA9B0034098C /* HomeViewController.swift */; };
+		2E9F0C0B2585BAB40034098C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0C0A2585BAB40034098C /* LoginViewController.swift */; };
+		2E9F0C6A258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0C69258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png */; };
+		2E9F0CAF25886E560034098C /* smile-2072907_1920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CAE25886E560034098C /* smile-2072907_1920.jpg */; };
+		2E9F0CB4258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CB3258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png */; };
+		2E9F0CB9258871F40034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CB8258871F30034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png */; };
+		2E9F0CBE258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CBD258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png */; };
+		2E9F0CC3258872490034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CC2258872480034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png */; };
+		2E9F0CC825891F970034098C /* InfoScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0CC725891F970034098C /* InfoScreenViewController.swift */; };
 		60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A282581D6F30008E759 /* TestGitPush.swift */; };
 		60AE1A392581D8B70008E759 /* MuralPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A382581D8B70008E759 /* MuralPinViewController.swift */; };
 		60AE1A492581DC3B0008E759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A482581DC3B0008E759 /* ViewController.swift */; };
@@ -26,7 +37,6 @@
 		A84E710B2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E710A2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift */; };
 		A84E71102581FDF900F6CB8C /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */; };
 		A84E71152581FE0B00F6CB8C /* muralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E71142581FE0B00F6CB8C /* muralModel.swift */; };
-		A84E715725820A2E00F6CB8C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84E715625820A2E00F6CB8C /* LogInViewController.swift */; };
 		E5F406B1BA036238DC4BD5D7 /* Pods_THISAPPTEAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D4405CCB90C69AADAF4E3C /* Pods_THISAPPTEAM.framework */; };
 		EA2ED2A8B4AA869DE7145069 /* Pods_THISAPPTEAMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45B0837DB6C1D80DFC7A1431 /* Pods_THISAPPTEAMTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +71,17 @@
 		2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManagement.swift; sourceTree = "<group>"; };
 		2E9F0B69257EF4400034098C /* muralStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = muralStruct.swift; sourceTree = "<group>"; };
 		2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		2E9F0BFB2585B8E60034098C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		2E9F0C002585BA7B0034098C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2E9F0C052585BA9B0034098C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2E9F0C0A2585BAB40034098C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2E9F0C69258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 3.51.13 PM.png"; sourceTree = "<group>"; };
+		2E9F0CAE25886E560034098C /* smile-2072907_1920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "smile-2072907_1920.jpg"; sourceTree = "<group>"; };
+		2E9F0CB3258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.23.22 PM.png"; sourceTree = "<group>"; };
+		2E9F0CB8258871F30034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.24.14 PM.png"; sourceTree = "<group>"; };
+		2E9F0CBD258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.24.41 PM.png"; sourceTree = "<group>"; };
+		2E9F0CC2258872480034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.25.20 PM.png"; sourceTree = "<group>"; };
+		2E9F0CC725891F970034098C /* InfoScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreenViewController.swift; sourceTree = "<group>"; };
 		45B0837DB6C1D80DFC7A1431 /* Pods_THISAPPTEAMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THISAPPTEAMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60AE1A282581D6F30008E759 /* TestGitPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitPush.swift; sourceTree = "<group>"; };
 		60AE1A382581D8B70008E759 /* MuralPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralPinViewController.swift; sourceTree = "<group>"; };
@@ -76,7 +97,6 @@
 		A84E710A2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoImageRetrievalViewController.swift; sourceTree = "<group>"; };
 		A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		A84E71142581FE0B00F6CB8C /* muralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muralModel.swift; sourceTree = "<group>"; };
-		A84E715625820A2E00F6CB8C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		A9B5946D58603C8D44F1C66A /* Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAM-THISAPPTEAMUITests/Pods-THISAPPTEAM-THISAPPTEAMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C308231234B0B31DB652B647 /* Pods-THISAPPTEAMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.debug.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D07985E7925A22CF51AAF94F /* Pods-THISAPPTEAMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THISAPPTEAMTests.release.xcconfig"; path = "Target Support Files/Pods-THISAPPTEAMTests/Pods-THISAPPTEAMTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,9 +158,12 @@
 				A84E71042581FD8400F6CB8C /* ViewControllers */,
 				A84E71052581FDB600F6CB8C /* FirebaseDB.swift */,
 				2E9F0B1B257EF1220034098C /* AppDelegate.swift */,
+				2E9F0CAE25886E560034098C /* smile-2072907_1920.jpg */,
 				2E9F0B1D257EF1220034098C /* SceneDelegate.swift */,
+				2E9F0C002585BA7B0034098C /* Constants.swift */,
 				2E9F0B24257EF1250034098C /* Assets.xcassets */,
 				60AE1A552581DCF30008E759 /* Main.storyboard */,
+				2E9F0CC2258872480034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png */,
 				60AE1A4D2581DCA60008E759 /* Artwork.swift */,
 				60AE1A602581DFAC0008E759 /* Mural2.swift */,
 				2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */,
@@ -148,8 +171,16 @@
 				A84E70FC2581FD2D00F6CB8C /* GoogleService-Info.plist */,
 				2E9F0B29257EF1250034098C /* Info.plist */,
 				60AE1A282581D6F30008E759 /* TestGitPush.swift */,
+				2E9F0CBD258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png */,
 				A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */,
+				2E9F0CB3258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png */,
 				A84E71142581FE0B00F6CB8C /* muralModel.swift */,
+				2E9F0CB8258871F30034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png */,
+				2E9F0BFB2585B8E60034098C /* SignUpViewController.swift */,
+				2E9F0C052585BA9B0034098C /* HomeViewController.swift */,
+				2E9F0CC725891F970034098C /* InfoScreenViewController.swift */,
+				2E9F0C0A2585BAB40034098C /* LoginViewController.swift */,
+				2E9F0C69258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png */,
 			);
 			path = THISAPPTEAM;
 			sourceTree = "<group>";
@@ -174,7 +205,6 @@
 				2E9F0B5F257EF4170034098C /* MapViewController.swift */,
 				60AE1A482581DC3B0008E759 /* ViewController.swift */,
 				60AE1A382581D8B70008E759 /* MuralPinViewController.swift */,
-				A84E715625820A2E00F6CB8C /* LogInViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -299,9 +329,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E9F0CB4258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png in Resources */,
+				2E9F0CBE258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png in Resources */,
+				2E9F0CB9258871F40034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png in Resources */,
+				2E9F0CC3258872490034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png in Resources */,
 				2E9F0B25257EF1250034098C /* Assets.xcassets in Resources */,
 				A84E70FD2581FD2D00F6CB8C /* GoogleService-Info.plist in Resources */,
+				2E9F0CAF25886E560034098C /* smile-2072907_1920.jpg in Resources */,
 				2E9F0B892581CC5D0034098C /* Launch Screen.storyboard in Resources */,
+				2E9F0C6A258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png in Resources */,
 				60AE1A562581DCF30008E759 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,15 +501,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				60AE1A612581DFAC0008E759 /* Mural2.swift in Sources */,
+				2E9F0C012585BA7C0034098C /* Constants.swift in Sources */,
 				60AE1A4E2581DCA60008E759 /* Artwork.swift in Sources */,
+				2E9F0CC825891F970034098C /* InfoScreenViewController.swift in Sources */,
 				60AE1A492581DC3B0008E759 /* ViewController.swift in Sources */,
+				2E9F0C0B2585BAB40034098C /* LoginViewController.swift in Sources */,
 				2E9F0B1C257EF1220034098C /* AppDelegate.swift in Sources */,
+				2E9F0C062585BA9B0034098C /* HomeViewController.swift in Sources */,
 				A84E71102581FDF900F6CB8C /* GlobalVariables.swift in Sources */,
 				A84E71062581FDB600F6CB8C /* FirebaseDB.swift in Sources */,
 				2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */,
 				A84E710B2581FDDA00F6CB8C /* DemoImageRetrievalViewController.swift in Sources */,
-				A84E715725820A2E00F6CB8C /* LogInViewController.swift in Sources */,
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
+				2E9F0BFC2585B8E60034098C /* SignUpViewController.swift in Sources */,
 				60AE1A392581D8B70008E759 /* MuralPinViewController.swift in Sources */,
 				2E9F0B1E257EF1220034098C /* SceneDelegate.swift in Sources */,
 				60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */,
