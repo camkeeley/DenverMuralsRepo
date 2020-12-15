@@ -36,6 +36,9 @@
 
 import MapKit
 
+/*
+ * Helper class for the ViewController class, Artwork objects can be saved and displayed on the map as clickable pins which lead to information about the murals.
+ */
 class Artwork: NSObject, MKAnnotation {
   let title: String?
   let locationName: String?

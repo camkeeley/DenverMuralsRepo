@@ -11,7 +11,9 @@ import Firebase
 import FirebaseFirestore
 import UIKit
 import Foundation
-
+/*
+ * These global variables store information about the murals and can be called in different classes when information is desired about the murals.
+ */
 public var murals = [muralDataModel]()
 
 public var titleOfClickedMural: NSString?
@@ -19,4 +21,3 @@ public var titleOfClickedMural: NSString?
 public var firstSetup: Bool = true
 
 public var muralPinClicked: muralDataModel?
-//public var muralPinClicked: DocumentReference?

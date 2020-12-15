@@ -10,40 +10,32 @@ import Firebase
 import FirebaseStorage
 import SDWebImage
 
+/*
+ * View controller for the pin view screen, sets the information on the screen to what is contained in the database for the clicked-on mural.
+ */
 class MuralPinViewController: UIViewController{
    // @IBOutlet private var mapView: MKMapView!
     
     @IBOutlet weak var imageView: UIImageView!
+    
+    @IBOutlet weak var TitleText: UITextView!
+    
+    @IBOutlet weak var TimeAndPlaceCreatedText: UITextView!
+    
+    @IBOutlet weak var ArtistText: UITextView!
+    
+    @IBOutlet weak var DescriptionText: UITextView!
+    
+    
     let storage = Storage.storage()
 
     private var firestoreDB:FirebaseDB = FirebaseDB()
 
+    /*
+     *This override function sets all of the data in the mural viewer window to the data contained in that mural's database entry.
+     */
     override func viewDidLoad() {
 
-        
-        
-//        let storage = Storage.storage()
-//        let storeRef = storage.reference()
-//
-////        let muralClickedRef = muralPinClicked.image
-////
-//        let imageRef = storeRef.child("MuralImages/LaAlmaImage.png")
-//        print(imageRef)
-//
-//        imageRef.getData(maxSize: 1 * 1024 * 1024) { data, error in
-//            if error != nil {
-//            // Uh-oh, an error occurred!
-//            print("Error \(error)")
-//          } else {
-//            print("Success!")
-//            self.imageView.image = UIImage(data: data!)
-//
-//          }
-//
-//        }
-        //            muralPinClicked = firestoreDB.getDocumentFromTitle(muralTitle: (view.annotation?.title)!!)
-
-        
         for each in murals
         {
             if(each.title == titleOfClickedMural)
@@ -63,6 +55,11 @@ class MuralPinViewController: UIViewController{
                         
                   }
                 }
+                
+                DescriptionText.text = each.description as String
+                ArtistText.text = each.artist as String
+                TitleText.text = each.title as String
+                TimeAndPlaceCreatedText.text = each.timeAndPlaceCreated as String
             }
         }
         

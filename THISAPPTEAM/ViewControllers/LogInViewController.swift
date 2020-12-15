@@ -2,11 +2,13 @@
 //  LogInViewController.swift
 //  THISAPPTEAM
 //
-//  Created by William Keeley on 12/9/20.
+//  Created by Cameron Keeley on 12/9/20.
 //
 
 import UIKit
-
+/*
+ * This ViewController controls the first page opened when running the apps, and stores mural database information to an array of local structs by calling the function getAllDocs.
+ */
 class LogInViewController: UIViewController {
 
     private var firestoreDB:FirebaseDB = FirebaseDB()

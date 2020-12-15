@@ -201,7 +201,7 @@
             <objects>
                 <viewController id="9Vf-Zy-3iQ" customClass="ViewController" customModule="THISAPPTEAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pAO-LI-ZBz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Fcf-vf-aax">
@@ -316,6 +316,11 @@
                     <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="eEg-F9-aKc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="26b-s7-3TR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="H1b-28-deq">
+                    <rect key="frame" x="0.0" y="0.0" width="34" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Save"/>
+                </button>
             </objects>
             <point key="canvasLocation" x="4386.9565217391309" y="87.723214285714278"/>
         </scene>
@@ -408,171 +413,97 @@
             </objects>
             <point key="canvasLocation" x="3477" y="810"/>
         </scene>
-        <!--Map-->
-        <scene sceneID="C7y-oE-imy">
-            <objects>
-                <viewController id="dRQ-rf-NrU" customClass="MapViewController" customModule="THISAPPTEAM" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="9Pt-XQ-9rz">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aUq-wn-H66">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                            </mapView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="4PD-sa-pbG"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="bottom" secondItem="4PD-sa-pbG" secondAttribute="bottom" id="1mJ-Wa-M9L"/>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="leading" secondItem="4PD-sa-pbG" secondAttribute="leading" id="9H8-qO-Mdt"/>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="trailing" secondItem="4PD-sa-pbG" secondAttribute="trailing" id="Y8E-Xc-dw0"/>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="top" secondItem="4PD-sa-pbG" secondAttribute="top" id="bx6-1e-wig"/>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="top" secondItem="4PD-sa-pbG" secondAttribute="top" id="fSr-Ll-VKb"/>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="bottom" secondItem="4PD-sa-pbG" secondAttribute="bottom" id="g65-QK-yae"/>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="leading" secondItem="4PD-sa-pbG" secondAttribute="leading" id="iK7-Cc-hRO"/>
-                            <constraint firstItem="aUq-wn-H66" firstAttribute="trailing" secondItem="4PD-sa-pbG" secondAttribute="trailing" id="iSq-Rq-2tB"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="V4X-Bl-oPQ"/>
-                    <connections>
-                        <outlet property="mapView" destination="aUq-wn-H66" id="15F-vP-3pi"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZLK-fF-7Tt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5074" y="-2586"/>
-        </scene>
         <!--Mural Pin View Controller-->
         <scene sceneID="eLk-Uy-Bfg">
             <objects>
                 <viewController id="wfl-gx-Otg" customClass="MuralPinViewController" customModule="THISAPPTEAM" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pG4-pS-cW2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H1b-28-deq">
-                                <rect key="frame" x="354" y="75" width="34" height="30"/>
-                                <state key="normal" title="Save"/>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IOz-W4-hak">
-                                <rect key="frame" x="87" y="415" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JPP-3i-dSR" userLabel="TimeAndPlaceCreated Text">
+                                <rect key="frame" x="2" y="552" width="412" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Westside Neighborhood:
-“La Alma”
-La Alma Recreation Center, 1978
-Emanuel Martinez (b. 1947)
-Entry by Fiorella Murillo </string>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ZXA-D2-NF3"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0c6-g4-NIy">
-                                <rect key="frame" x="20" y="528" width="374" height="270"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-sb-hXn" userLabel="Artist Text">
+                                <rect key="frame" x="1" y="494" width="412" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="270" id="xgt-Qf-l9p"/>
+                                    <constraint firstAttribute="height" constant="50" id="kbD-Tm-BSG"/>
                                 </constraints>
-                                <string key="text">After La Alma Recreational Center was built, this mural was  gifted by Martinez to the community. It was painted with Michael  Maestas and Westside youth as a way to bring the whole  community together. Our tour guide, Lucha Martinez, says that  the purpose of these murals was to depict the influences and  contributions of Chicanos in society. She explains that they were  also a source of pride to the younger community because of the  lack of representation elsewhere. This mural represents the  aesthetic that developed at the time. These murals were going up  by the people in Chicano communities as a form of protest
-against the fact that Chicanos weren’t represented in any of  Colorado’s history even though they were an essential part.  Presently, using the funds from the Historic Denver Action Fund,  there is a project going on to make this mural and the  surrounding Lincoln park a national landmark so that it is  protected from the severe gentrification surrounding the area.
-On one side of this mural there’s recognition of the  puebloans and on the other side is the outline of the city of  Denver to, Lucha Martinez says, tie together the past, the present  and future. Chicano/a Murals of Colorado Project (CMCP)  explains that this was also to show the youth that they have the  responsibility and power to make their own future without  forgetting their history. In the center is the earth and moon  goddess. The moon goddess faces the Denver city outline while  the Earth goddess faces the puebloan. Lucha Martinez says that  there is a lot of maize which appreciates the cultivation of  migrant workers. She tells that the Mestizo, a symbol with three  faces to represent a person of European and Mesoamerican  decent, became a cultural icon and is pictured here. Another  connection for the Chicanos is the homeland. According to Lucha  Martinez, the Mural shows an eagle that represents their Chicano  identity with the eagle from Mexico and America. On the eagle’s  chest there is a butterfly. Martinez explains that the butterfly  (Mariposa) is the name of the street right in front of this center  and its presence in this mural represents change, growth, and  flourishing. It refers to the transformation and growth of the  youth and is another sign of hope for the future. She also shows  that the balance between life and death is also another theme  throughout. This mural represents this “cycle of life” with one  claw of the eagle holding a skull and the other a fetus.
-“Cesar Chavez”
-
-</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vbz-Yf-ViD" userLabel="Title Text">
+                                <rect key="frame" x="0.0" y="436" width="412" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="82r-iU-Rv2"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iBV-1N-CGx">
-                                <rect key="frame" x="62" y="119" width="292" height="271"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="271" id="TYT-CR-o8n"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="112" width="374" height="316"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bud-P3-ox3">
-                                <rect key="frame" x="30" y="75" width="34" height="30"/>
-                                <state key="normal" title="Back"/>
-                                <connections>
-                                    <segue destination="9Vf-Zy-3iQ" kind="show" id="jTb-om-iE3"/>
-                                </connections>
-                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZdD-y0-Gtw" userLabel="Description Text">
+                                <rect key="frame" x="2" y="610" width="412" height="278"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="278" id="SZ9-mu-C2K"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="mTH-Wz-769"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="bud-P3-ox3" firstAttribute="baseline" secondItem="H1b-28-deq" secondAttribute="baseline" id="0op-8B-7Lg"/>
-                            <constraint firstItem="IOz-W4-hak" firstAttribute="centerX" secondItem="0c6-g4-NIy" secondAttribute="centerX" id="COE-pp-ce4"/>
-                            <constraint firstItem="iBV-1N-CGx" firstAttribute="leading" secondItem="bud-P3-ox3" secondAttribute="trailing" constant="-2" id="Nsv-pH-Wyh"/>
-                            <constraint firstItem="IOz-W4-hak" firstAttribute="top" secondItem="iBV-1N-CGx" secondAttribute="bottom" constant="25" id="P3g-0d-ten"/>
-                            <constraint firstItem="mTH-Wz-769" firstAttribute="bottom" secondItem="IOz-W4-hak" secondAttribute="bottom" constant="265" id="Sco-bW-ffI"/>
-                            <constraint firstItem="bud-P3-ox3" firstAttribute="leading" secondItem="mTH-Wz-769" secondAttribute="leading" constant="30" id="Wtd-Ts-ZVj"/>
-                            <constraint firstItem="0c6-g4-NIy" firstAttribute="leading" secondItem="pG4-pS-cW2" secondAttribute="leadingMargin" id="XhH-Et-v28"/>
-                            <constraint firstItem="IOz-W4-hak" firstAttribute="top" secondItem="iBV-1N-CGx" secondAttribute="bottom" constant="25" id="b76-Z6-pN9"/>
-                            <constraint firstItem="iBV-1N-CGx" firstAttribute="centerX" secondItem="0c6-g4-NIy" secondAttribute="centerX" constant="1" id="bGg-Pm-MOO"/>
-                            <constraint firstItem="H1b-28-deq" firstAttribute="leading" secondItem="iBV-1N-CGx" secondAttribute="trailing" id="c0j-oe-m5Y"/>
-                            <constraint firstItem="bud-P3-ox3" firstAttribute="top" secondItem="mTH-Wz-769" secondAttribute="top" constant="75" id="fY7-Xx-xtY"/>
-                            <constraint firstItem="iBV-1N-CGx" firstAttribute="centerX" secondItem="pG4-pS-cW2" secondAttribute="centerX" constant="1" id="gQq-CK-ATV"/>
-                            <constraint firstItem="IOz-W4-hak" firstAttribute="top" secondItem="iBV-1N-CGx" secondAttribute="bottom" constant="25" id="loJ-4c-yNr"/>
-                            <constraint firstItem="IOz-W4-hak" firstAttribute="leading" secondItem="mTH-Wz-769" secondAttribute="leading" constant="87" id="pxL-5C-lDX"/>
-                            <constraint firstItem="iBV-1N-CGx" firstAttribute="top" secondItem="mTH-Wz-769" secondAttribute="top" constant="119" id="t2h-LE-Ot3"/>
-                            <constraint firstItem="mTH-Wz-769" firstAttribute="bottom" secondItem="0c6-g4-NIy" secondAttribute="bottom" constant="10" id="vz8-sa-XkM"/>
+                            <constraint firstItem="ZdD-y0-Gtw" firstAttribute="top" secondItem="JPP-3i-dSR" secondAttribute="bottom" constant="8" id="31W-BP-uzI"/>
+                            <constraint firstItem="ZdD-y0-Gtw" firstAttribute="top" secondItem="JPP-3i-dSR" secondAttribute="bottom" constant="8" id="7sz-3w-Xed"/>
+                            <constraint firstAttribute="trailing" secondItem="JPP-3i-dSR" secondAttribute="trailing" id="8sW-1n-FTb"/>
+                            <constraint firstItem="JPP-3i-dSR" firstAttribute="leading" secondItem="mTH-Wz-769" secondAttribute="leading" constant="2" id="8ws-ol-iRu"/>
+                            <constraint firstItem="vbz-Yf-ViD" firstAttribute="leading" secondItem="pG4-pS-cW2" secondAttribute="leading" id="BFy-ma-xoB"/>
+                            <constraint firstItem="ZdD-y0-Gtw" firstAttribute="leading" secondItem="mTH-Wz-769" secondAttribute="leading" constant="2" id="MLb-k7-2xE"/>
+                            <constraint firstItem="iBV-1N-CGx" firstAttribute="centerX" secondItem="pG4-pS-cW2" secondAttribute="centerX" id="PwV-lt-9u1"/>
+                            <constraint firstItem="ZdD-y0-Gtw" firstAttribute="centerX" secondItem="pG4-pS-cW2" secondAttribute="centerX" constant="1" id="ZjG-ld-ewD"/>
+                            <constraint firstItem="iBV-1N-CGx" firstAttribute="centerX" secondItem="pG4-pS-cW2" secondAttribute="centerX" id="caY-sA-Urr"/>
+                            <constraint firstItem="mTH-Wz-769" firstAttribute="trailing" secondItem="vbz-Yf-ViD" secondAttribute="trailing" constant="2" id="cmM-Ge-0fZ"/>
+                            <constraint firstItem="iBV-1N-CGx" firstAttribute="top" secondItem="mTH-Wz-769" secondAttribute="top" constant="24" id="d3c-mm-Cex"/>
+                            <constraint firstAttribute="bottom" secondItem="JPP-3i-dSR" secondAttribute="bottom" constant="294" id="eNF-Pu-jkS"/>
+                            <constraint firstItem="ZdD-y0-Gtw" firstAttribute="centerX" secondItem="iBV-1N-CGx" secondAttribute="centerX" constant="1" id="eWH-m9-1xU"/>
+                            <constraint firstItem="vbz-Yf-ViD" firstAttribute="trailing" secondItem="KXD-sb-hXn" secondAttribute="trailing" constant="-1" id="fBz-MP-BdM"/>
+                            <constraint firstItem="KXD-sb-hXn" firstAttribute="top" secondItem="vbz-Yf-ViD" secondAttribute="bottom" constant="8" id="hXA-VG-FG5"/>
+                            <constraint firstItem="iBV-1N-CGx" firstAttribute="leading" secondItem="mTH-Wz-769" secondAttribute="leading" constant="20" id="lk9-EX-TXH"/>
+                            <constraint firstItem="vbz-Yf-ViD" firstAttribute="top" secondItem="iBV-1N-CGx" secondAttribute="bottom" constant="8" id="q6R-wf-8A3"/>
+                            <constraint firstItem="JPP-3i-dSR" firstAttribute="top" secondItem="KXD-sb-hXn" secondAttribute="bottom" constant="8" id="uKe-b2-BXy"/>
+                            <constraint firstItem="vbz-Yf-ViD" firstAttribute="leading" secondItem="KXD-sb-hXn" secondAttribute="leading" constant="-1" id="w1L-Qm-yek"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="krZ-U6-Xj7"/>
                     <connections>
+                        <outlet property="ArtistText" destination="KXD-sb-hXn" id="8ds-GW-9Ja"/>
+                        <outlet property="DescriptionText" destination="ZdD-y0-Gtw" id="tWD-7g-dnq"/>
+                        <outlet property="TimeAndPlaceCreatedText" destination="JPP-3i-dSR" id="tbB-bE-S1H"/>
+                        <outlet property="TitleText" destination="vbz-Yf-ViD" id="fhX-Hb-Hyd"/>
                         <outlet property="imageView" destination="iBV-1N-CGx" id="fDC-dV-FaV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XFL-0S-IQV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2850.7246376811595" y="-1803.3482142857142"/>
-        </scene>
-        <!--Pin Click View Controller-->
-        <scene sceneID="Ssc-Xu-zKb">
-            <objects>
-                <viewController id="qDC-ad-Q03" customClass="PinClickViewController" customModule="THISAPPTEAM" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fzT-41-UCl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HyY-pz-7Kf">
-                                <rect key="frame" x="87" y="182" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Sa8-rf-57X"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="DLA-eW-LK2"/>
-                    <connections>
-                        <outlet property="ImageView" destination="HyY-pz-7Kf" id="8ZD-dm-cx6"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L2n-xq-5Vs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5074" y="-1906"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="EAk-pS-vSG">
-            <objects>
-                <viewController id="DAH-Ps-dyb" customClass="Mural2" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3PH-oy-b8x">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="InX-oO-6AX">
-                                <rect key="frame" x="87" y="214" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="CJU-lD-awK"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="Pwq-oJ-fRg"/>
-                    <navigationItem key="navigationItem" id="Ix2-e8-q0u"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T71-Lp-orH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5074" y="-1205"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="aLy-sp-BLy">
@@ -616,8 +547,7 @@ On one side of this mural there’s recognition of the  puebloans and on the oth
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="lMZ-aj-ojZ"/>
-        <segue reference="jTb-om-iE3"/>
+        <segue reference="kWe-GF-Ht0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="denver-2230512_1920" width="568" height="702"/>

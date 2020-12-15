@@ -2,7 +2,7 @@
 //  muralStruct.swift
 //  databasePractice
 //
-//  Created by William Keeley on 11/19/20.
+//  Created by Cameron Keeley on 11/19/20.
 //  Copyright © 2020 CamKeeleyApps. All rights reserved.
 //
 

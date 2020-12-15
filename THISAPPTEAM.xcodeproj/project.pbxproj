@@ -15,7 +15,6 @@
 		2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B64257EF41D0034098C /* DatabaseManagement.swift */; };
 		2E9F0B6A257EF4400034098C /* muralStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0B69257EF4400034098C /* muralStruct.swift */; };
 		2E9F0B892581CC5D0034098C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */; };
-		60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A282581D6F30008E759 /* TestGitPush.swift */; };
 		60AE1A392581D8B70008E759 /* MuralPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A382581D8B70008E759 /* MuralPinViewController.swift */; };
 		60AE1A492581DC3B0008E759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A482581DC3B0008E759 /* ViewController.swift */; };
 		60AE1A4E2581DCA60008E759 /* Artwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A4D2581DCA60008E759 /* Artwork.swift */; };
@@ -62,7 +61,6 @@
 		2E9F0B69257EF4400034098C /* muralStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = muralStruct.swift; sourceTree = "<group>"; };
 		2E9F0B882581CC5D0034098C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		45B0837DB6C1D80DFC7A1431 /* Pods_THISAPPTEAMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THISAPPTEAMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		60AE1A282581D6F30008E759 /* TestGitPush.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitPush.swift; sourceTree = "<group>"; };
 		60AE1A382581D8B70008E759 /* MuralPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuralPinViewController.swift; sourceTree = "<group>"; };
 		60AE1A482581DC3B0008E759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		60AE1A4D2581DCA60008E759 /* Artwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artwork.swift; sourceTree = "<group>"; };
@@ -147,7 +145,6 @@
 				2E9F0B69257EF4400034098C /* muralStruct.swift */,
 				A84E70FC2581FD2D00F6CB8C /* GoogleService-Info.plist */,
 				2E9F0B29257EF1250034098C /* Info.plist */,
-				60AE1A282581D6F30008E759 /* TestGitPush.swift */,
 				A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */,
 				A84E71142581FE0B00F6CB8C /* muralModel.swift */,
 			);
@@ -476,7 +473,6 @@
 				2E9F0B65257EF41D0034098C /* DatabaseManagement.swift in Sources */,
 				60AE1A392581D8B70008E759 /* MuralPinViewController.swift in Sources */,
 				2E9F0B1E257EF1220034098C /* SceneDelegate.swift in Sources */,
-				60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */,
 				2E9F0B60257EF4170034098C /* MapViewController.swift in Sources */,
 				A84E71152581FE0B00F6CB8C /* muralModel.swift in Sources */,
 			);
