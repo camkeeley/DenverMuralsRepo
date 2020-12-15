@@ -21,9 +21,6 @@
 		2E9F0C0B2585BAB40034098C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0C0A2585BAB40034098C /* LoginViewController.swift */; };
 		2E9F0C6A258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0C69258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png */; };
 		2E9F0CAF25886E560034098C /* smile-2072907_1920.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CAE25886E560034098C /* smile-2072907_1920.jpg */; };
-		2E9F0CB4258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CB3258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png */; };
-		2E9F0CB9258871F40034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CB8258871F30034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png */; };
-		2E9F0CBE258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CBD258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png */; };
 		2E9F0CC3258872490034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E9F0CC2258872480034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png */; };
 		2E9F0CC825891F970034098C /* InfoScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F0CC725891F970034098C /* InfoScreenViewController.swift */; };
 		60AE1A292581D6F30008E759 /* TestGitPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AE1A282581D6F30008E759 /* TestGitPush.swift */; };
@@ -77,9 +74,6 @@
 		2E9F0C0A2585BAB40034098C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2E9F0C69258823EC0034098C /* Screen Shot 2020-12-14 at 3.51.13 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 3.51.13 PM.png"; sourceTree = "<group>"; };
 		2E9F0CAE25886E560034098C /* smile-2072907_1920.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "smile-2072907_1920.jpg"; sourceTree = "<group>"; };
-		2E9F0CB3258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.23.22 PM.png"; sourceTree = "<group>"; };
-		2E9F0CB8258871F30034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.24.14 PM.png"; sourceTree = "<group>"; };
-		2E9F0CBD258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.24.41 PM.png"; sourceTree = "<group>"; };
 		2E9F0CC2258872480034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-12-14 at 9.25.20 PM.png"; sourceTree = "<group>"; };
 		2E9F0CC725891F970034098C /* InfoScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoScreenViewController.swift; sourceTree = "<group>"; };
 		45B0837DB6C1D80DFC7A1431 /* Pods_THISAPPTEAMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THISAPPTEAMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,11 +165,8 @@
 				A84E70FC2581FD2D00F6CB8C /* GoogleService-Info.plist */,
 				2E9F0B29257EF1250034098C /* Info.plist */,
 				60AE1A282581D6F30008E759 /* TestGitPush.swift */,
-				2E9F0CBD258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png */,
 				A84E710F2581FDF900F6CB8C /* GlobalVariables.swift */,
-				2E9F0CB3258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png */,
 				A84E71142581FE0B00F6CB8C /* muralModel.swift */,
-				2E9F0CB8258871F30034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png */,
 				2E9F0BFB2585B8E60034098C /* SignUpViewController.swift */,
 				2E9F0C052585BA9B0034098C /* HomeViewController.swift */,
 				2E9F0CC725891F970034098C /* InfoScreenViewController.swift */,
@@ -329,9 +320,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9F0CB4258871C00034098C /* Screen Shot 2020-12-14 at 9.23.22 PM.png in Resources */,
-				2E9F0CBE258872250034098C /* Screen Shot 2020-12-14 at 9.24.41 PM.png in Resources */,
-				2E9F0CB9258871F40034098C /* Screen Shot 2020-12-14 at 9.24.14 PM.png in Resources */,
 				2E9F0CC3258872490034098C /* Screen Shot 2020-12-14 at 9.25.20 PM.png in Resources */,
 				2E9F0B25257EF1250034098C /* Assets.xcassets in Resources */,
 				A84E70FD2581FD2D00F6CB8C /* GoogleService-Info.plist in Resources */,
