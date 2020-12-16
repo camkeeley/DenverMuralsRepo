@@ -6,18 +6,26 @@
 //
 import UIKit
 
+/*
+ * View Controller for the home screen. Once view loads, stores database information in an array of muralModel structs.
+ */
 class HomeViewController: UIViewController {
 
     
     
     @IBOutlet weak var loginbutton: UIButton!
-    
-    
+
     @IBOutlet weak var signupbutton: UIButton!
     
+    private var firestoreDB:FirebaseDB = FirebaseDB()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        firestoreDB.getAllDocs()
+        firestoreDB.createNewCollection()
 
         loginbutton.layer.cornerRadius = 20
         loginbutton.layer.borderWidth = 0

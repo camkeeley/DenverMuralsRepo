@@ -9,6 +9,9 @@
 import UIKit
 import FirebaseAuth
 
+/*
+ * View controller for the login page.
+ */
 class LogInViewController: UIViewController {
 
 
@@ -24,7 +27,6 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     
     
-    private var firestoreDB:FirebaseDB = FirebaseDB()
 
     
     override func viewDidLoad() {
@@ -34,8 +36,7 @@ class LogInViewController: UIViewController {
         
         setUpElements()
         
-        firestoreDB.getAllDocs()
-        firestoreDB.createNewCollection()
+
         
         
         loginButton.layer.cornerRadius = 20
@@ -52,6 +53,7 @@ class LogInViewController: UIViewController {
         // Style the elements
       
     }
+    
     
     
     
@@ -74,10 +76,12 @@ class LogInViewController: UIViewController {
             }
             else {
                 
-                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
-                
                 //self.view.window?.rootViewController = homeViewController
-                self.view.window?.makeKeyAndVisible()
+
+                //The following code was causing an error and has been edited out. The code seems to attempt to create a nonexistant homeViewController named "HomeVC"
+//                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+//
+//                self.view.window?.makeKeyAndVisible()
             }
         }
     }

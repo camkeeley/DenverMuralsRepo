@@ -10,18 +10,22 @@ import SwiftUI
 import UIKit
 import FirebaseAuth
 import Firebase
+import FirebaseFirestore
 
+/*
+ * View controller for the sign up page.
+ */
 class SignUpViewController: UIViewController {
 
     
     @IBOutlet weak var firstNameTextField: UITextField!
-    //
+    
     @IBOutlet weak var lastNameTextField: UITextField!
-//
-//    
+    
     @IBOutlet weak var emailTextField: UITextField!
-    //
+
     @IBOutlet weak var passwordTextField: UITextField!
+    
     //    @IBOutlet weak var emailTextField: UITextField!
 //    
 //    @IBOutlet weak var passwordTextField: UITextField!
@@ -72,7 +76,8 @@ class SignUpViewController: UIViewController {
         return nil
     }
     
-
+  
+    
     @IBAction func signUpTapped(_ sender: Any) {
         
         // Validate the fields
@@ -113,8 +118,9 @@ class SignUpViewController: UIViewController {
                         }
                     }
                     
+                    //The following line has been commented out because it causes an error.
                     // Transition to the home screen
-                    self.transitionToHome()
+//                    self.transitionToHome()
                 }
                 
             }
