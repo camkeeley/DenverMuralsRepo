@@ -9,6 +9,9 @@
 import UIKit
 import FirebaseAuth
 
+/*
+ * View controller for the login page.
+ */
 class LogInViewController: UIViewController {
 
 
@@ -24,7 +27,6 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     
     
-    private var firestoreDB:FirebaseDB = FirebaseDB()
 
     
     override func viewDidLoad() {
@@ -34,8 +36,7 @@ class LogInViewController: UIViewController {
         
         setUpElements()
         
-        firestoreDB.getAllDocs()
-        firestoreDB.createNewCollection()
+
         
         
         loginButton.layer.cornerRadius = 20

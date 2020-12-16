@@ -10,18 +10,22 @@ import SwiftUI
 import UIKit
 import FirebaseAuth
 import Firebase
+import FirebaseFirestore
 
+/*
+ * View controller for the sign up page.
+ */
 class SignUpViewController: UIViewController {
 
     
     @IBOutlet weak var firstNameTextField: UITextField!
-    //
+    
     @IBOutlet weak var lastNameTextField: UITextField!
-//
-//    
+    
     @IBOutlet weak var emailTextField: UITextField!
-    //
+
     @IBOutlet weak var passwordTextField: UITextField!
+    
     //    @IBOutlet weak var emailTextField: UITextField!
 //    
 //    @IBOutlet weak var passwordTextField: UITextField!
