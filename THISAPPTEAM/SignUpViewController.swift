@@ -76,7 +76,8 @@ class SignUpViewController: UIViewController {
         return nil
     }
     
-
+  
+    
     @IBAction func signUpTapped(_ sender: Any) {
         
         // Validate the fields
@@ -117,8 +118,9 @@ class SignUpViewController: UIViewController {
                         }
                     }
                     
+                    //The following line has been commented out because it causes an error.
                     // Transition to the home screen
-                    self.transitionToHome()
+//                    self.transitionToHome()
                 }
                 
             }

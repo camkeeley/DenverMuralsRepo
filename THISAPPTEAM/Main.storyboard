@@ -170,7 +170,7 @@
                                             </textField>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJp-0k-W7v" customClass="loginButton">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJp-0k-W7v">
                                         <rect key="frame" x="0.0" y="192" width="317" height="70"/>
                                         <color key="backgroundColor" red="0.8806095719" green="0.41128191349999998" blue="0.44701755050000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -181,6 +181,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
+                                            <action selector="loginTapped:" destination="zSH-gk-GIL" eventType="touchUpInside" id="WR9-mi-iYh"/>
                                             <segue destination="LHn-wc-BQ2" kind="show" id="kWe-GF-Ht0"/>
                                         </connections>
                                     </button>
@@ -742,6 +743,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="signUpTapped:" destination="HwA-Bf-5wa" eventType="touchUpInside" id="Lse-TU-UHo"/>
                                     <segue destination="LHn-wc-BQ2" kind="show" id="d9G-Fe-Y7m"/>
                                 </connections>
                             </button>
@@ -820,7 +822,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U2r-FB-7yI" userLabel="TimeAndPlaceCreated Text">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U2r-FB-7yI" userLabel="TimeAndPlaceCreated Text">
                                 <rect key="frame" x="2" y="552" width="412" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <accessibility key="accessibilityConfiguration">
@@ -833,7 +835,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C3D-Yy-jtr" userLabel="Artist Text">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="C3D-Yy-jtr" userLabel="Artist Text">
                                 <rect key="frame" x="1" y="494" width="412" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -843,7 +845,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="azV-Sb-ItR" userLabel="Title Text">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="azV-Sb-ItR" userLabel="Title Text">
                                 <rect key="frame" x="0.0" y="436" width="412" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -856,7 +858,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ci2-8b-J20">
                                 <rect key="frame" x="20" y="112" width="374" height="316"/>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fYX-xg-Vna" userLabel="Description Text">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fYX-xg-Vna" userLabel="Description Text">
                                 <rect key="frame" x="2" y="610" width="412" height="278"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -906,7 +908,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="d9G-Fe-Y7m"/>
+        <segue reference="kWe-GF-Ht0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-12-14 at 3.51.13 PM.png" width="472" height="461"/>

@@ -57,6 +57,7 @@ class LogInViewController: UIViewController {
     
     
     
+    
     @IBAction func loginTapped(_ sender: Any) {
         
         // TODO: Validate Text Fields
@@ -75,10 +76,12 @@ class LogInViewController: UIViewController {
             }
             else {
                 
-                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
-                
                 //self.view.window?.rootViewController = homeViewController
-                self.view.window?.makeKeyAndVisible()
+
+                //The following code was causing an error and has been edited out. The code seems to attempt to create a nonexistant homeViewController named "HomeVC"
+//                let homeViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.homeViewController) as? HomeViewController
+//
+//                self.view.window?.makeKeyAndVisible()
             }
         }
     }
